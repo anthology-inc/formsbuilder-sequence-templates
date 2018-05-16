@@ -1,0 +1,612 @@
+<Export>
+  <ExportedSequences>
+    <Sequence>
+      <Id>0</Id>
+      <Name>Template - Request for Information</Name>
+      <Url></Url>
+      <Title>Template - Request for Information</Title>
+      <Description>Template - Request for Information</Description>
+      <WorkflowDefinitionId>0</WorkflowDefinitionId>
+      <IsAnonymous>true</IsAnonymous>
+      <EndStateForm>Template-Confirmation</EndStateForm>
+      <AuthenticationProduct>Student</AuthenticationProduct>
+      <KendoTheme>Silver</KendoTheme>
+      <BootstrapTheme>Lumen</BootstrapTheme>
+      <CustomTheme></CustomTheme>
+      <OriginalState>H4sIAAAAAAAEAD3MQQrCMBAAwK9I7mZTeysqeFbpoSJel5C0C01Ssisxvl6s4ANm9qecsfb+7Ood56frPUumOGKst7q4zSvMkQ9qElk6ALaTC8g6kM2JkxdtU4CdMS00BgaXCWd6o1CKsMasfkNH/6OUokurUx6/sIHH9TKs7ZYiC0brFBw/juQnSpcAAAA=</OriginalState>
+      <SecureState>H4sIAAAAAAAEAD3MQQrCMBAAwK9I7mZTeysqeFbpoSJel5C0C01Ssisxvl6s4ANm9qecsfb+7Ood56frPUumOGKst7q4zSvMkQ9qElk6ALaTC8g6kM2JkxdtU4CdMS00BgaXCWd6o1CKsMasfkNH/6OUokurUx6/sIHH9TKs7ZYiC0brFBw/juQnSpcAAAA=</SecureState>
+      <EntityState>0</EntityState>
+    </Sequence>
+    <Forms>
+      <Id>0</Id>
+      <Name>Template-Confirmation</Name>
+      <Title>Confirmation</Title>
+      <Description></Description>
+      <Json>{"name":"Template-Confirmation","title":"Confirmation","description":"","id":0,"formsections":[{"columns":[[{"ControlType":"HTML","ModuleName":null,"EntityName":null,"EntityNavigationalName":null,"EntityDisplayName":null,"Name":null,"DisplayName":"HTML","FullName":"..","ParentEntityName":null,"IsNavigation":false,"NavigationProperties":[],"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"HTML","IsEditable":false,"IsVisible":true,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Not Editable"},{"Name":"Uuid","DisplayName":"Uuid","Value":"9241795b-fb80-2f4b-0cea-6aa375b781b5","IsEditable":false,"IsVisible":false,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":null},{"Name":"Class","DisplayName":"Class","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Optional class (or space separated classes) added to top level element of control. CSS specific to the control can be applied. must be defined in a Renderer CSS file."},{"Name":"HTML","DisplayName":"HTML","Value":"&lt;p&gt;Thank you for completing this Campus University form.  We will contact you shortly if there is anything else that we need from you.  If you need to reach us, please call:  1-888-CAMPUS1.&lt;/p&gt;","IsEditable":true,"IsVisible":true,"EditType":"TextArea","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Any valid HTML"}],"CustomProperty":false,"CustomPropertyKey":null,"ClrType":null,"index":9,"uuid":"9241795b-fb80-2f4b-0cea-6aa375b781b5"}]],"uuid":"a48d4c8d-41cf-cbd2-d3d8-e5038be72aa9"}],"isEndState":true}</Json>
+      <Html>&lt;div class="panel panel-default"&gt;
+&lt;div class="row"&gt;
+	&lt;div class="col-xs-12 col-md-12"&gt;&lt;div class="form-group  cmc-div-htmlpage"&gt;
+	&lt;p&gt;Thank you for completing this Campus University form.  We will contact you shortly if there is anything else that we need from you.  If you need to reach us, please call:  1-888-CAMPUS1.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</Html>
+      <IsEndState>true</IsEndState>
+      <IncludeInViewSummary>true</IncludeInViewSummary>
+      <CssClass></CssClass>
+      <FormId></FormId>
+      <OriginalState>H4sIAAAAAAAEAD3MQQrCMBAAwK9I7mZTeysqeFbpoSJel5C0C01Ssisxvl6s4ANm9qecsfb+7Ood56frPUumOGKst7q4zSvMkQ9qElk6ALaTC8g6kM2JkxdtU4CdMS00BgaXCWd6o1CKsMasfkNH/6OUokurUx6/sIHH9TKs7ZYiC0brFBw/juQnSpcAAAA=</OriginalState>
+      <SecureState>H4sIAAAAAAAEAD3MQQrCMBAAwK9I7mZTeysqeFbpoSJel5C0C01Ssisxvl6s4ANm9qecsfb+7Ood56frPUumOGKst7q4zSvMkQ9qElk6ALaTC8g6kM2JkxdtU4CdMS00BgaXCWd6o1CKsMasfkNH/6OUokurUx6/sIHH9TKs7ZYiC0brFBw/juQnSpcAAAA=</SecureState>
+      <EntityState>0</EntityState>
+    </Forms>
+    <Forms>
+      <Id>0</Id>
+      <Name>Request for Information</Name>
+      <Title>Request for Information</Title>
+      <Description></Description>
+      <Json>{"name":"Request for Information","title":"Request for Information","description":"","id":0,"formsections":[{"columns":[[{"ControlType":"dropdown","ModuleName":"Admissions","EntityName":"ProspectInquiryEntity","EntityNavigationalName":null,"EntityDisplayName":"Prospect Inquiry","Name":"CampusId","DisplayName":"Campus","FullName":"Student.ProspectInquiryEntity.CampusId","ParentEntityName":null,"IsNavigation":false,"NavigationProperties":[],"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"Drop-down List","IsEditable":false,"IsVisible":true,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Not Editable"},{"Name":"Uuid","DisplayName":"Uuid","Value":null,"IsEditable":false,"IsVisible":false,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":null},{"Name":"Class","DisplayName":"Class","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Optional class (or space separated classes) added to top level element of control. CSS specific to the control can be applied. must be defined in a Renderer CSS file."},{"Name":"Disabled","DisplayName":"Disabled","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Sets a control to disabled. Typically this is dynamically bound to a workflow variable or another control's value."},{"Name":"Id","DisplayName":"Id","Value":"ProspectInquiryEntityCampusId","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Id is required. Can be any valid javascript attribute value."},{"Name":"DisplayName","DisplayName":"Label","Value":"Campus","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":""},{"Name":"LookupQueryDisplayColumn","DisplayName":"Lookup Display Member","Value":"Name","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"The name of the property in the OData query string to use for display."},{"Name":"LookupQueryName","DisplayName":"Lookup Query","Value":"Campuses?$select=Code, Name, Id&amp;$filter=IsActive eq true&amp;$orderby=Name","IsEditable":true,"IsVisible":true,"EditType":"TextArea","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"OData query string to retrieve values for the control."},{"Name":"LookupQuerySortColumn","DisplayName":"Lookup Sort Member","Value":"Name","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"The name of the property in an OData query string to sort on. Default is to use the OData query order."},{"Name":"LookupQueryValueColumn","DisplayName":"Lookup Value Member","Value":"Id","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"The name of the property in the OData query string to use as the value."},{"Name":"Model","DisplayName":"Model","Value":"vm.models.prospectInquiryEntity.CampusId","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Model is required for binding to a workflow value. \"vm.models.\" is the standard prefix. \r\n\t&lt;br/&gt;This value may initialize the control, and may be updated by the control, \r\n\t&lt;br/&gt;and if matched to a workflow argument, is available in the workflow (readable or writable)"},{"Name":"OptionLabel","DisplayName":"Option Label","Value":"&lt;Select&gt;","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"The label used for a dropdown list when nothing is selected."},{"Name":"PageSize","DisplayName":"Page Size","Value":"100","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Size of the page when paging is true"},{"Name":"ProductName","DisplayName":"Product","Value":"Student","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Used to specify the product from which OData query results are returned."},{"Name":"Required","DisplayName":"Required","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Makes the control required and will raise a validation error on the form."},{"Name":"RequiredMessage","DisplayName":"Required Message","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Message which overrides the default required message."},{"Name":"ServerFiltering","DisplayName":"Server Filtering","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Turns on server filtering. An input box is provided for text and values &lt;br/&gt;containing the typed text will be displayed up to the page size."},{"Name":"Description","DisplayName":"Tooltip","Value":"Campus","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Value to display when hovering over the control's label."},{"Name":"ControlValueList","DisplayName":"Value List","Value":"","IsEditable":false,"IsVisible":false,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"This is a non-visible property used to populate initial values of a dropdownlist or multiselect control"},{"Name":"ControlValueListModel","DisplayName":"Value List","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Button","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Sets Workflow Bound or Value List which overrides a Lookup Query.\r\n\t&lt;br/&gt;The values can be supplied by a list or by a workflow argument which matches the model property set."},{"Name":"Visible","DisplayName":"Visible","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":""}],"CustomProperty":false,"CustomPropertyKey":null,"ClrType":"Cmc.Nexus.Admissions.Entities.ProspectInquiryEntity, Cmc.Nexus.Admissions.Contracts","index":0,"uuid":"3f6d312f-133c-a3ae-6825-16437f5fae96"}]],"uuid":"f48cac55-c525-64f8-fc0a-bb51b0a8059a"},{"columns":[[{"ControlType":"Text","ModuleName":"Admissions","EntityName":"StudentEntity","EntityNavigationalName":"Student","EntityDisplayName":"Student","Name":"FirstName","DisplayName":"First Name","FullName":"Student.ProspectInquiryEntity.Student.FirstName","ParentEntityName":"ProspectInquiryEntity","IsNavigation":false,"NavigationProperties":[],"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"Text Box","IsEditable":false,"IsVisible":true,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Not Editable"},{"Name":"Uuid","DisplayName":"Uuid","Value":null,"IsEditable":false,"IsVisible":false,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":null},{"Name":"Class","DisplayName":"Class","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Optional class (or space separated classes) added to top level element of control. CSS specific to the control can be applied. must be defined in a Renderer CSS file."},{"Name":"Disabled","DisplayName":"Disabled","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Sets a control to disabled. Typically this is dynamically bound to a workflow variable or another control's value."},{"Name":"Id","DisplayName":"Id","Value":"StudentEntityFirstName","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Id is required. Can be any valid javascript attribute value."},{"Name":"DisplayName","DisplayName":"Label","Value":"First Name","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":""},{"Name":"MaximumLength","DisplayName":"Max Length","Value":"25","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Maximum number of characters in a text box."},{"Name":"MaximumValue","DisplayName":"Maximum Value","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"For a Text Box with &lt;b&gt;Type&lt;/b&gt; of number or a Numeric Text Box, specifies the maximum value. Leave blank for no maximum.\r\n\t&lt;br/&gt;For a Date Picker specifies a date/time value, and cannot currently be bound to a vm.models variable."},{"Name":"MinimumLength","DisplayName":"Min Length","Value":"1","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Minimum number of characters in a text box."},{"Name":"MinimumValue","DisplayName":"Minimum Value","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"For a Text Box with &lt;b&gt;Type&lt;/b&gt; of number or a Numeric Text Box, specifies the minimum value. Leave blank for no minimum.\r\n\t&lt;br/&gt;For a Date Picker specifies a date/time value, and cannot currently be bound to a vm.models variable."},{"Name":"Model","DisplayName":"Model","Value":"vm.models.prospectInquiryEntity.Student.FirstName","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Model is required for binding to a workflow value. \"vm.models.\" is the standard prefix. \r\n\t&lt;br/&gt;This value may initialize the control, and may be updated by the control, \r\n\t&lt;br/&gt;and if matched to a workflow argument, is available in the workflow (readable or writable)"},{"Name":"Placeholder","DisplayName":"Placeholder","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"The prompt text displayed in a ghost style in an input box when nothing has been entered."},{"Name":"Editable","DisplayName":"Read-only","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Makes the control read-only. Typically used for an input box and can be bound to a workflow value or another control's value."},{"Name":"Required","DisplayName":"Required","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Makes the control required and will raise a validation error on the form."},{"Name":"RequiredMessage","DisplayName":"Required Message","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Message which overrides the default required message."},{"Name":"Description","DisplayName":"Tooltip","Value":"First Name","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Value to display when hovering over the control's label."},{"Name":"InputType","DisplayName":"Type","Value":"text","IsEditable":true,"IsVisible":true,"EditType":"DropdownList","EditDropdownListValues":"text,password,email,number,url","EditQuery":null,"PropertyHelp":"Choose from supported input types."},{"Name":"Visible","DisplayName":"Visible","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":""}],"CustomProperty":false,"CustomPropertyKey":null,"ClrType":"Cmc.Nexus.Admissions.Entities.ProspectInquiryEntity, Cmc.Nexus.Admissions.Contracts","index":49,"uuid":"b4292591-4cf4-cf67-6fef-c5e14dbec0e2"}],[{"ControlType":"Text","ModuleName":"Admissions","EntityName":"StudentEntity","EntityNavigationalName":"Student","EntityDisplayName":"Student","Name":"MiddleName","DisplayName":"Middle Name","FullName":"Student.ProspectInquiryEntity.Student.MiddleName","ParentEntityName":"ProspectInquiryEntity","IsNavigation":false,"NavigationProperties":[],"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"Text Box","IsEditable":false,"IsVisible":true,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Not Editable"},{"Name":"Uuid","DisplayName":"Uuid","Value":null,"IsEditable":false,"IsVisible":false,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":null},{"Name":"Class","DisplayName":"Class","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Optional class (or space separated classes) added to top level element of control. CSS specific to the control can be applied. must be defined in a Renderer CSS file."},{"Name":"Disabled","DisplayName":"Disabled","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Sets a control to disabled. Typically this is dynamically bound to a workflow variable or another control's value."},{"Name":"Id","DisplayName":"Id","Value":"StudentEntityMiddleName","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Id is required. Can be any valid javascript attribute value."},{"Name":"DisplayName","DisplayName":"Label","Value":"Middle Name","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":""},{"Name":"MaximumLength","DisplayName":"Max Length","Value":"100","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Maximum number of characters in a text box."},{"Name":"MaximumValue","DisplayName":"Maximum Value","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"For a Text Box with &lt;b&gt;Type&lt;/b&gt; of number or a Numeric Text Box, specifies the maximum value. Leave blank for no maximum.\r\n\t&lt;br/&gt;For a Date Picker specifies a date/time value, and cannot currently be bound to a vm.models variable."},{"Name":"MinimumLength","DisplayName":"Min Length","Value":"1","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Minimum number of characters in a text box."},{"Name":"MinimumValue","DisplayName":"Minimum Value","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"For a Text Box with &lt;b&gt;Type&lt;/b&gt; of number or a Numeric Text Box, specifies the minimum value. Leave blank for no minimum.\r\n\t&lt;br/&gt;For a Date Picker specifies a date/time value, and cannot currently be bound to a vm.models variable."},{"Name":"Model","DisplayName":"Model","Value":"vm.models.prospectInquiryEntity.Student.MiddleName","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Model is required for binding to a workflow value. \"vm.models.\" is the standard prefix. \r\n\t&lt;br/&gt;This value may initialize the control, and may be updated by the control, \r\n\t&lt;br/&gt;and if matched to a workflow argument, is available in the workflow (readable or writable)"},{"Name":"Placeholder","DisplayName":"Placeholder","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"The prompt text displayed in a ghost style in an input box when nothing has been entered."},{"Name":"Editable","DisplayName":"Read-only","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Makes the control read-only. Typically used for an input box and can be bound to a workflow value or another control's value."},{"Name":"Required","DisplayName":"Required","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Makes the control required and will raise a validation error on the form."},{"Name":"RequiredMessage","DisplayName":"Required Message","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Message which overrides the default required message."},{"Name":"Description","DisplayName":"Tooltip","Value":"Middle Name","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Value to display when hovering over the control's label."},{"Name":"InputType","DisplayName":"Type","Value":"text","IsEditable":true,"IsVisible":true,"EditType":"DropdownList","EditDropdownListValues":"text,password,email,number,url","EditQuery":null,"PropertyHelp":"Choose from supported input types."},{"Name":"Visible","DisplayName":"Visible","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":""}],"CustomProperty":false,"CustomPropertyKey":null,"ClrType":"Cmc.Nexus.Admissions.Entities.ProspectInquiryEntity, Cmc.Nexus.Admissions.Contracts","index":63,"uuid":"82dcc25b-5bcf-747f-aa0e-18d39068da03"}],[{"ControlType":"Text","ModuleName":"Admissions","EntityName":"StudentEntity","EntityNavigationalName":"Student","EntityDisplayName":"Student","Name":"LastName","DisplayName":"Last Name","FullName":"Student.ProspectInquiryEntity.Student.LastName","ParentEntityName":"ProspectInquiryEntity","IsNavigation":false,"NavigationProperties":[],"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"Text Box","IsEditable":false,"IsVisible":true,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Not Editable"},{"Name":"Uuid","DisplayName":"Uuid","Value":null,"IsEditable":false,"IsVisible":false,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":null},{"Name":"Class","DisplayName":"Class","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Optional class (or space separated classes) added to top level element of control. CSS specific to the control can be applied. must be defined in a Renderer CSS file."},{"Name":"Disabled","DisplayName":"Disabled","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Sets a control to disabled. Typically this is dynamically bound to a workflow variable or another control's value."},{"Name":"Id","DisplayName":"Id","Value":"StudentEntityLastName","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Id is required. Can be any valid javascript attribute value."},{"Name":"DisplayName","DisplayName":"Label","Value":"Last Name","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":""},{"Name":"MaximumLength","DisplayName":"Max Length","Value":"25","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Maximum number of characters in a text box."},{"Name":"MaximumValue","DisplayName":"Maximum Value","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"For a Text Box with &lt;b&gt;Type&lt;/b&gt; of number or a Numeric Text Box, specifies the maximum value. Leave blank for no maximum.\r\n\t&lt;br/&gt;For a Date Picker specifies a date/time value, and cannot currently be bound to a vm.models variable."},{"Name":"MinimumLength","DisplayName":"Min Length","Value":"1","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Minimum number of characters in a text box."},{"Name":"MinimumValue","DisplayName":"Minimum Value","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"For a Text Box with &lt;b&gt;Type&lt;/b&gt; of number or a Numeric Text Box, specifies the minimum value. Leave blank for no minimum.\r\n\t&lt;br/&gt;For a Date Picker specifies a date/time value, and cannot currently be bound to a vm.models variable."},{"Name":"Model","DisplayName":"Model","Value":"vm.models.prospectInquiryEntity.Student.LastName","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Model is required for binding to a workflow value. \"vm.models.\" is the standard prefix. \r\n\t&lt;br/&gt;This value may initialize the control, and may be updated by the control, \r\n\t&lt;br/&gt;and if matched to a workflow argument, is available in the workflow (readable or writable)"},{"Name":"Placeholder","DisplayName":"Placeholder","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"The prompt text displayed in a ghost style in an input box when nothing has been entered."},{"Name":"Editable","DisplayName":"Read-only","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Makes the control read-only. Typically used for an input box and can be bound to a workflow value or another control's value."},{"Name":"Required","DisplayName":"Required","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Makes the control required and will raise a validation error on the form."},{"Name":"RequiredMessage","DisplayName":"Required Message","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Message which overrides the default required message."},{"Name":"Description","DisplayName":"Tooltip","Value":"Last Name","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Value to display when hovering over the control's label."},{"Name":"InputType","DisplayName":"Type","Value":"text","IsEditable":true,"IsVisible":true,"EditType":"DropdownList","EditDropdownListValues":"text,password,email,number,url","EditQuery":null,"PropertyHelp":"Choose from supported input types."},{"Name":"Visible","DisplayName":"Visible","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":""}],"CustomProperty":false,"CustomPropertyKey":null,"ClrType":"Cmc.Nexus.Admissions.Entities.ProspectInquiryEntity, Cmc.Nexus.Admissions.Contracts","index":57,"uuid":"f06534df-6653-a486-e755-967f468a1923"}]],"uuid":"3580eb68-7e0c-4347-92b0-87e737f98c76"},{"columns":[[{"ControlType":"Text","ModuleName":"Admissions","EntityName":"StudentEntity","EntityNavigationalName":"Student","EntityDisplayName":"Student","Name":"StreetAddress","DisplayName":"Street Address","FullName":"Student.ProspectInquiryEntity.Student.StreetAddress","ParentEntityName":"ProspectInquiryEntity","IsNavigation":false,"NavigationProperties":[],"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"Text Box","IsEditable":false,"IsVisible":true,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Not Editable"},{"Name":"Uuid","DisplayName":"Uuid","Value":"1f317eef-5fcc-009e-ca5f-c41efb215fcd","IsEditable":false,"IsVisible":false,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":null},{"Name":"Class","DisplayName":"Class","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Optional class (or space separated classes) added to top level element of control. CSS specific to the control can be applied. must be defined in a Renderer CSS file."},{"Name":"Disabled","DisplayName":"Disabled","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Sets a control to disabled. Typically this is dynamically bound to a workflow variable or another control's value."},{"Name":"Id","DisplayName":"Id","Value":"StudentEntityStreetAddress","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Id is required. Can be any valid javascript attribute value."},{"Name":"DisplayName","DisplayName":"Label","Value":"Street Address","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":""},{"Name":"MaximumLength","DisplayName":"Max Length","Value":"255","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Maximum number of characters in a text box."},{"Name":"MaximumValue","DisplayName":"Maximum Value","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"For a Text Box with &lt;b&gt;Type&lt;/b&gt; of number or a Numeric Text Box, specifies the maximum value. Leave blank for no maximum.\r\n\t&lt;br/&gt;For a Date Picker specifies a date/time value, and cannot currently be bound to a vm.models variable."},{"Name":"MinimumLength","DisplayName":"Min Length","Value":"1","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Minimum number of characters in a text box."},{"Name":"MinimumValue","DisplayName":"Minimum Value","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"For a Text Box with &lt;b&gt;Type&lt;/b&gt; of number or a Numeric Text Box, specifies the minimum value. Leave blank for no minimum.\r\n\t&lt;br/&gt;For a Date Picker specifies a date/time value, and cannot currently be bound to a vm.models variable."},{"Name":"Model","DisplayName":"Model","Value":"vm.models.prospectInquiryEntity.Student.StreetAddress","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Model is required for binding to a workflow value. \"vm.models.\" is the standard prefix. \r\n\t&lt;br/&gt;This value may initialize the control, and may be updated by the control, \r\n\t&lt;br/&gt;and if matched to a workflow argument, is available in the workflow (readable or writable)"},{"Name":"Placeholder","DisplayName":"Placeholder","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"The prompt text displayed in a ghost style in an input box when nothing has been entered."},{"Name":"Editable","DisplayName":"Read-only","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Makes the control read-only. Typically used for an input box and can be bound to a workflow value or another control's value."},{"Name":"Required","DisplayName":"Required","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Makes the control required and will raise a validation error on the form."},{"Name":"RequiredMessage","DisplayName":"Required Message","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Message which overrides the default required message."},{"Name":"Description","DisplayName":"Tooltip","Value":"Street Address","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Value to display when hovering over the control's label."},{"Name":"InputType","DisplayName":"Type","Value":"text","IsEditable":true,"IsVisible":true,"EditType":"DropdownList","EditDropdownListValues":"text,password,email,number,url","EditQuery":null,"PropertyHelp":"Choose from supported input types."},{"Name":"Visible","DisplayName":"Visible","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":""}],"CustomProperty":false,"CustomPropertyKey":null,"ClrType":"Cmc.Nexus.Admissions.Entities.ProspectInquiryEntity, Cmc.Nexus.Admissions.Contracts","index":111,"uuid":"1f317eef-5fcc-009e-ca5f-c41efb215fcd"}]],"uuid":"af31d74a-99ce-0845-9148-0361162e721b"},{"columns":[[{"ControlType":"Text","ModuleName":"Admissions","EntityName":"StudentEntity","EntityNavigationalName":"Student","EntityDisplayName":"Student","Name":"City","DisplayName":"City","FullName":"Student.ProspectInquiryEntity.Student.City","ParentEntityName":"ProspectInquiryEntity","IsNavigation":false,"NavigationProperties":[],"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"Text Box","IsEditable":false,"IsVisible":true,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Not Editable"},{"Name":"Uuid","DisplayName":"Uuid","Value":"d902a8fe-15e4-ca27-bc41-52690dd4b30b","IsEditable":false,"IsVisible":false,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":null},{"Name":"Class","DisplayName":"Class","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Optional class (or space separated classes) added to top level element of control. CSS specific to the control can be applied. must be defined in a Renderer CSS file."},{"Name":"Disabled","DisplayName":"Disabled","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Sets a control to disabled. Typically this is dynamically bound to a workflow variable or another control's value."},{"Name":"Id","DisplayName":"Id","Value":"StudentEntityCity","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Id is required. Can be any valid javascript attribute value."},{"Name":"DisplayName","DisplayName":"Label","Value":"City","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":""},{"Name":"MaximumLength","DisplayName":"Max Length","Value":"25","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Maximum number of characters in a text box."},{"Name":"MaximumValue","DisplayName":"Maximum Value","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"For a Text Box with &lt;b&gt;Type&lt;/b&gt; of number or a Numeric Text Box, specifies the maximum value. Leave blank for no maximum.\r\n\t&lt;br/&gt;For a Date Picker specifies a date/time value, and cannot currently be bound to a vm.models variable."},{"Name":"MinimumLength","DisplayName":"Min Length","Value":"1","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Minimum number of characters in a text box."},{"Name":"MinimumValue","DisplayName":"Minimum Value","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"For a Text Box with &lt;b&gt;Type&lt;/b&gt; of number or a Numeric Text Box, specifies the minimum value. Leave blank for no minimum.\r\n\t&lt;br/&gt;For a Date Picker specifies a date/time value, and cannot currently be bound to a vm.models variable."},{"Name":"Model","DisplayName":"Model","Value":"vm.models.prospectInquiryEntity.Student.City","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Model is required for binding to a workflow value. \"vm.models.\" is the standard prefix. \r\n\t&lt;br/&gt;This value may initialize the control, and may be updated by the control, \r\n\t&lt;br/&gt;and if matched to a workflow argument, is available in the workflow (readable or writable)"},{"Name":"Placeholder","DisplayName":"Placeholder","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"The prompt text displayed in a ghost style in an input box when nothing has been entered."},{"Name":"Editable","DisplayName":"Read-only","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Makes the control read-only. Typically used for an input box and can be bound to a workflow value or another control's value."},{"Name":"Required","DisplayName":"Required","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Makes the control required and will raise a validation error on the form."},{"Name":"RequiredMessage","DisplayName":"Required Message","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Message which overrides the default required message."},{"Name":"Description","DisplayName":"Tooltip","Value":"City","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Value to display when hovering over the control's label."},{"Name":"InputType","DisplayName":"Type","Value":"text","IsEditable":true,"IsVisible":true,"EditType":"DropdownList","EditDropdownListValues":"text,password,email,number,url","EditQuery":null,"PropertyHelp":"Choose from supported input types."},{"Name":"Visible","DisplayName":"Visible","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":""}],"CustomProperty":false,"CustomPropertyKey":null,"ClrType":"Cmc.Nexus.Admissions.Entities.ProspectInquiryEntity, Cmc.Nexus.Admissions.Contracts","index":20,"uuid":"d902a8fe-15e4-ca27-bc41-52690dd4b30b"}],[{"ControlType":"dropdown","ModuleName":"Admissions","EntityName":"StudentEntity","EntityNavigationalName":"Student","EntityDisplayName":"Student","Name":"State","DisplayName":"State","FullName":"Student.ProspectInquiryEntity.Student.State","ParentEntityName":"ProspectInquiryEntity","IsNavigation":false,"NavigationProperties":[],"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"Drop-down List","IsEditable":false,"IsVisible":true,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Not Editable"},{"Name":"Uuid","DisplayName":"Uuid","Value":"e19ee5c4-2e5f-ebf4-2bcf-7299f6c18d94","IsEditable":false,"IsVisible":false,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":null},{"Name":"Class","DisplayName":"Class","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Optional class (or space separated classes) added to top level element of control. CSS specific to the control can be applied. must be defined in a Renderer CSS file."},{"Name":"Disabled","DisplayName":"Disabled","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Sets a control to disabled. Typically this is dynamically bound to a workflow variable or another control's value."},{"Name":"Id","DisplayName":"Id","Value":"StudentEntityState","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Id is required. Can be any valid javascript attribute value."},{"Name":"DisplayName","DisplayName":"Label","Value":"State","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":""},{"Name":"LookupQueryDisplayColumn","DisplayName":"Lookup Display Member","Value":"Name","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"The name of the property in the OData query string to use for display."},{"Name":"LookupQueryName","DisplayName":"Lookup Query","Value":"UsaStates?$select=Code,Name,Id&amp;$filter=IsActive eq true","IsEditable":true,"IsVisible":true,"EditType":"TextArea","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"OData query string to retrieve values for the control."},{"Name":"LookupQuerySortColumn","DisplayName":"Lookup Sort Member","Value":"Code","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"The name of the property in an OData query string to sort on. Default is to use the OData query order."},{"Name":"LookupQueryValueColumn","DisplayName":"Lookup Value Member","Value":"Code","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"The name of the property in the OData query string to use as the value."},{"Name":"Model","DisplayName":"Model","Value":"vm.models.prospectInquiryEntity.Student.State","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Model is required for binding to a workflow value. \"vm.models.\" is the standard prefix. \r\n\t&lt;br/&gt;This value may initialize the control, and may be updated by the control, \r\n\t&lt;br/&gt;and if matched to a workflow argument, is available in the workflow (readable or writable)"},{"Name":"OptionLabel","DisplayName":"Option Label","Value":"&lt;Select&gt;","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"The label used for a dropdown list when nothing is selected."},{"Name":"PageSize","DisplayName":"Page Size","Value":"100","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Size of the page when paging is true"},{"Name":"ProductName","DisplayName":"Product","Value":"Student","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Used to specify the product from which OData query results are returned."},{"Name":"Required","DisplayName":"Required","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Makes the control required and will raise a validation error on the form."},{"Name":"RequiredMessage","DisplayName":"Required Message","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Message which overrides the default required message."},{"Name":"ServerFiltering","DisplayName":"Server Filtering","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Turns on server filtering. An input box is provided for text and values &lt;br/&gt;containing the typed text will be displayed up to the page size."},{"Name":"Description","DisplayName":"Tooltip","Value":"State","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Value to display when hovering over the control's label."},{"Name":"ControlValueList","DisplayName":"Value List","Value":"","IsEditable":false,"IsVisible":false,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"This is a non-visible property used to populate initial values of a dropdownlist or multiselect control"},{"Name":"ControlValueListModel","DisplayName":"Value List","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Button","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Sets Workflow Bound or Value List which overrides a Lookup Query.\r\n\t&lt;br/&gt;The values can be supplied by a list or by a workflow argument which matches the model property set."},{"Name":"Visible","DisplayName":"Visible","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":""}],"CustomProperty":false,"CustomPropertyKey":null,"ClrType":"Cmc.Nexus.Admissions.Entities.ProspectInquiryEntity, Cmc.Nexus.Admissions.Contracts","index":110,"uuid":"e19ee5c4-2e5f-ebf4-2bcf-7299f6c18d94"}],[{"ControlType":"Text","ModuleName":"Admissions","EntityName":"StudentEntity","EntityNavigationalName":"Student","EntityDisplayName":"Student","Name":"PostalCode","DisplayName":"Postal Code","FullName":"Student.ProspectInquiryEntity.Student.PostalCode","ParentEntityName":"ProspectInquiryEntity","IsNavigation":false,"NavigationProperties":[],"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"Text Box","IsEditable":false,"IsVisible":true,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Not Editable"},{"Name":"Uuid","DisplayName":"Uuid","Value":"163dec4c-cc02-c4a6-9d37-48ff431ec12d","IsEditable":false,"IsVisible":false,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":null},{"Name":"Class","DisplayName":"Class","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Optional class (or space separated classes) added to top level element of control. CSS specific to the control can be applied. must be defined in a Renderer CSS file."},{"Name":"Disabled","DisplayName":"Disabled","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Sets a control to disabled. Typically this is dynamically bound to a workflow variable or another control's value."},{"Name":"Id","DisplayName":"Id","Value":"StudentEntityPostalCode","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Id is required. Can be any valid javascript attribute value."},{"Name":"DisplayName","DisplayName":"Label","Value":"Postal Code","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":""},{"Name":"MaximumLength","DisplayName":"Max Length","Value":"10","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Maximum number of characters in a text box."},{"Name":"MaximumValue","DisplayName":"Maximum Value","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"For a Text Box with &lt;b&gt;Type&lt;/b&gt; of number or a Numeric Text Box, specifies the maximum value. Leave blank for no maximum.\r\n\t&lt;br/&gt;For a Date Picker specifies a date/time value, and cannot currently be bound to a vm.models variable."},{"Name":"MinimumLength","DisplayName":"Min Length","Value":"1","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Minimum number of characters in a text box."},{"Name":"MinimumValue","DisplayName":"Minimum Value","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"For a Text Box with &lt;b&gt;Type&lt;/b&gt; of number or a Numeric Text Box, specifies the minimum value. Leave blank for no minimum.\r\n\t&lt;br/&gt;For a Date Picker specifies a date/time value, and cannot currently be bound to a vm.models variable."},{"Name":"Model","DisplayName":"Model","Value":"vm.models.prospectInquiryEntity.Student.PostalCode","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Model is required for binding to a workflow value. \"vm.models.\" is the standard prefix. \r\n\t&lt;br/&gt;This value may initialize the control, and may be updated by the control, \r\n\t&lt;br/&gt;and if matched to a workflow argument, is available in the workflow (readable or writable)"},{"Name":"Placeholder","DisplayName":"Placeholder","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"The prompt text displayed in a ghost style in an input box when nothing has been entered."},{"Name":"Editable","DisplayName":"Read-only","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Makes the control read-only. Typically used for an input box and can be bound to a workflow value or another control's value."},{"Name":"Required","DisplayName":"Required","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Makes the control required and will raise a validation error on the form."},{"Name":"RequiredMessage","DisplayName":"Required Message","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Message which overrides the default required message."},{"Name":"Description","DisplayName":"Tooltip","Value":"Postal Code","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Value to display when hovering over the control's label."},{"Name":"InputType","DisplayName":"Type","Value":"text","IsEditable":true,"IsVisible":true,"EditType":"DropdownList","EditDropdownListValues":"text,password,email,number,url","EditQuery":null,"PropertyHelp":"Choose from supported input types."},{"Name":"Visible","DisplayName":"Visible","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":""}],"CustomProperty":false,"CustomPropertyKey":null,"ClrType":"Cmc.Nexus.Admissions.Entities.ProspectInquiryEntity, Cmc.Nexus.Admissions.Contracts","index":85,"uuid":"163dec4c-cc02-c4a6-9d37-48ff431ec12d"}]],"uuid":"6fa595c7-f377-6e4c-94d9-cc944aa46882"},{"columns":[[{"ControlType":"Text","ModuleName":"Admissions","EntityName":"StudentEntity","EntityNavigationalName":"Student","EntityDisplayName":"Student","Name":"EmailAddress","DisplayName":"Email address","FullName":"Student.ProspectInquiryEntity.Student.EmailAddress","ParentEntityName":"ProspectInquiryEntity","IsNavigation":false,"NavigationProperties":[],"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"Text Box","IsEditable":false,"IsVisible":true,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Not Editable"},{"Name":"Uuid","DisplayName":"Uuid","Value":"a1dd6466-0338-14f8-353b-898dbdfadd3f","IsEditable":false,"IsVisible":false,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":null},{"Name":"Class","DisplayName":"Class","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Optional class (or space separated classes) added to top level element of control. CSS specific to the control can be applied. must be defined in a Renderer CSS file."},{"Name":"Disabled","DisplayName":"Disabled","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Sets a control to disabled. Typically this is dynamically bound to a workflow variable or another control's value."},{"Name":"Id","DisplayName":"Id","Value":"StudentEntityEmailAddress","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Id is required. Can be any valid javascript attribute value."},{"Name":"DisplayName","DisplayName":"Label","Value":"Email address","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":""},{"Name":"MaximumLength","DisplayName":"Max Length","Value":"50","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Maximum number of characters in a text box."},{"Name":"MaximumValue","DisplayName":"Maximum Value","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"For a Text Box with &lt;b&gt;Type&lt;/b&gt; of number or a Numeric Text Box, specifies the maximum value. Leave blank for no maximum.\r\n\t&lt;br/&gt;For a Date Picker specifies a date/time value, and cannot currently be bound to a vm.models variable."},{"Name":"MinimumLength","DisplayName":"Min Length","Value":"1","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Minimum number of characters in a text box."},{"Name":"MinimumValue","DisplayName":"Minimum Value","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"For a Text Box with &lt;b&gt;Type&lt;/b&gt; of number or a Numeric Text Box, specifies the minimum value. Leave blank for no minimum.\r\n\t&lt;br/&gt;For a Date Picker specifies a date/time value, and cannot currently be bound to a vm.models variable."},{"Name":"Model","DisplayName":"Model","Value":"vm.models.prospectInquiryEntity.Student.EmailAddress","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Model is required for binding to a workflow value. \"vm.models.\" is the standard prefix. \r\n\t&lt;br/&gt;This value may initialize the control, and may be updated by the control, \r\n\t&lt;br/&gt;and if matched to a workflow argument, is available in the workflow (readable or writable)"},{"Name":"Placeholder","DisplayName":"Placeholder","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"The prompt text displayed in a ghost style in an input box when nothing has been entered."},{"Name":"Editable","DisplayName":"Read-only","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Makes the control read-only. Typically used for an input box and can be bound to a workflow value or another control's value."},{"Name":"Required","DisplayName":"Required","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Makes the control required and will raise a validation error on the form."},{"Name":"RequiredMessage","DisplayName":"Required Message","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Message which overrides the default required message."},{"Name":"Description","DisplayName":"Tooltip","Value":"Email address","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Value to display when hovering over the control's label."},{"Name":"InputType","DisplayName":"Type","Value":"text","IsEditable":true,"IsVisible":true,"EditType":"DropdownList","EditDropdownListValues":"text,password,email,number,url","EditQuery":null,"PropertyHelp":"Choose from supported input types."},{"Name":"Visible","DisplayName":"Visible","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":""}],"CustomProperty":false,"CustomPropertyKey":null,"ClrType":"Cmc.Nexus.Admissions.Entities.ProspectInquiryEntity, Cmc.Nexus.Admissions.Contracts","index":40,"uuid":"a1dd6466-0338-14f8-353b-898dbdfadd3f"}],[{"ControlType":"MaskedTextBox","ModuleName":null,"EntityName":null,"EntityNavigationalName":null,"EntityDisplayName":null,"Name":null,"DisplayName":"Masked Text Box","FullName":"..","ParentEntityName":null,"IsNavigation":false,"NavigationProperties":[],"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"Masked Text Box","IsEditable":false,"IsVisible":true,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Not Editable"},{"Name":"Uuid","DisplayName":"Uuid","Value":"45df2102-05ba-fafa-3f58-a902bce168da","IsEditable":false,"IsVisible":false,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":null},{"Name":"Class","DisplayName":"Class","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Optional class (or space separated classes) added to top level element of control. CSS specific to the control can be applied. must be defined in a Renderer CSS file."},{"Name":"Disabled","DisplayName":"Disabled","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Sets a control to disabled. Typically this is dynamically bound to a workflow variable or another control's value."},{"Name":"MaskFormat","DisplayName":"Format","Value":"(###)###-####","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"&lt;p&gt;Specifies the input mask. The following mask rules are supported:\r\n\t&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;0&lt;/strong&gt; - Digit. Accepts any digit between 0 and 9.&lt;/li&gt;\r\n\t&lt;li&gt;&lt;strong&gt;9&lt;/strong&gt; - Digit or space. Accepts any digit between 0 and 9, plus space.&lt;/li&gt;\r\n\t&lt;li&gt;&lt;strong&gt;#&lt;/strong&gt; - Digit or space. Like &lt;strong&gt;9&lt;/strong&gt; rule, but allows also (+) and (-) signs.&lt;/li&gt;\r\n\t&lt;li&gt;&lt;strong&gt;L&lt;/strong&gt; - Letter. Restricts input to letters a-z and A-Z. This rule is equivalent to [a-zA-Z] in regular expressions.&lt;/li&gt;\r\n\t&lt;li&gt;&lt;strong&gt;?&lt;/strong&gt; - Letter or space. Restricts input to letters a-z and A-Z. This rule is equivalent to [a-zA-Z] in regular expressions.&lt;/li&gt;\r\n\t&lt;li&gt;&lt;strong&gt;&amp;amp;&lt;/strong&gt; - Character. Accepts any character. The rule is equivalent to &lt;em&gt;\\S&lt;/em&gt; in regular expressions.&lt;/li&gt;\r\n\t&lt;li&gt;&lt;strong&gt;C&lt;/strong&gt; - Character or space. Accepts any character. The rule is equivalent to &lt;em&gt;.&lt;/em&gt; in regular expressions.&lt;/li&gt;\r\n\t&lt;li&gt;&lt;strong&gt;A&lt;/strong&gt; - Alphanumeric. Accepts letters and digits only.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;a&lt;/strong&gt; - Alphanumeric or space. Accepts letters, digits and space only.&lt;/li&gt;\r\n\t&lt;li&gt;&lt;strong&gt;.&lt;/strong&gt; - Decimal placeholder. The decimal separator will be get from the current culture used by Kendo.&lt;/li&gt;\r\n\t&lt;li&gt;&lt;strong&gt;,&lt;/strong&gt; - Thousands placeholder. The display character will be get from the current culture used by Kendo.&lt;/li&gt;\r\n\t&lt;li&gt;&lt;strong&gt;$&lt;/strong&gt; - Currency symbol. The display character will be get from the current culture used by Kendo.&lt;/li&gt;&lt;/ul&gt;"},{"Name":"Id","DisplayName":"Id","Value":"52927c93-e9fc-952a-7f70-5e8400ef7b94","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Id is required. Can be any valid javascript attribute value."},{"Name":"DisplayName","DisplayName":"Label","Value":"Phone Number","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":""},{"Name":"Model","DisplayName":"Model","Value":"vm.models.prospectInquiryEntity.Student.PhoneNumber","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Model is required for binding to a workflow value. \"vm.models.\" is the standard prefix. \r\n\t&lt;br/&gt;This value may initialize the control, and may be updated by the control, \r\n\t&lt;br/&gt;and if matched to a workflow argument, is available in the workflow (readable or writable)"},{"Name":"Placeholder","DisplayName":"Placeholder","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"The prompt text displayed in a ghost style in an input box when nothing has been entered."},{"Name":"Editable","DisplayName":"Read-only","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Makes the control read-only. Typically used for an input box and can be bound to a workflow value or another control's value."},{"Name":"Required","DisplayName":"Required","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Makes the control required and will raise a validation error on the form."},{"Name":"RequiredMessage","DisplayName":"Required Message","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Message which overrides the default required message."},{"Name":"Description","DisplayName":"Tooltip","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Value to display when hovering over the control's label."},{"Name":"MaskPatternMessage","DisplayName":"Validation Message","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"This is the message shown when the user's input does not have a Regex pattern match."},{"Name":"MaskPattern","DisplayName":"Validation Regex","Value":"","IsEditable":true,"IsVisible":true,"EditType":"TextArea","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Regex pattern to validate the input. Use a site like RegExLib.com to search and test Regex patterns, or construct your own Regex with tools like Expresso.\r\n\t&lt;br/&gt;If the user input does not produce a Regex match, the \"Validation Message\" will be displayed. \r\n\t&lt;br/&gt;e.g. a simple Regex that enforces a minimum of 11 digits for a phone number where the first digit must be \"1\" is: 1\\d{10}"},{"Name":"Visible","DisplayName":"Visible","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":""}],"CustomProperty":false,"CustomPropertyKey":null,"ClrType":null,"index":13,"selected":true,"uuid":"45df2102-05ba-fafa-3f58-a902bce168da"}],[{"ControlType":"MaskedTextBox","ModuleName":null,"EntityName":null,"EntityNavigationalName":null,"EntityDisplayName":null,"Name":null,"DisplayName":"Masked Text Box","FullName":"..","ParentEntityName":null,"IsNavigation":false,"NavigationProperties":[],"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"Masked Text Box","IsEditable":false,"IsVisible":true,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Not Editable"},{"Name":"Uuid","DisplayName":"Uuid","Value":"ff2f86b1-8a4c-4cfb-1fdf-8af519141078","IsEditable":false,"IsVisible":false,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":null},{"Name":"Class","DisplayName":"Class","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Optional class (or space separated classes) added to top level element of control. CSS specific to the control can be applied. must be defined in a Renderer CSS file."},{"Name":"Disabled","DisplayName":"Disabled","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Sets a control to disabled. Typically this is dynamically bound to a workflow variable or another control's value."},{"Name":"MaskFormat","DisplayName":"Format","Value":"(###)###-####","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"&lt;p&gt;Specifies the input mask. The following mask rules are supported:\r\n\t&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;0&lt;/strong&gt; - Digit. Accepts any digit between 0 and 9.&lt;/li&gt;\r\n\t&lt;li&gt;&lt;strong&gt;9&lt;/strong&gt; - Digit or space. Accepts any digit between 0 and 9, plus space.&lt;/li&gt;\r\n\t&lt;li&gt;&lt;strong&gt;#&lt;/strong&gt; - Digit or space. Like &lt;strong&gt;9&lt;/strong&gt; rule, but allows also (+) and (-) signs.&lt;/li&gt;\r\n\t&lt;li&gt;&lt;strong&gt;L&lt;/strong&gt; - Letter. Restricts input to letters a-z and A-Z. This rule is equivalent to [a-zA-Z] in regular expressions.&lt;/li&gt;\r\n\t&lt;li&gt;&lt;strong&gt;?&lt;/strong&gt; - Letter or space. Restricts input to letters a-z and A-Z. This rule is equivalent to [a-zA-Z] in regular expressions.&lt;/li&gt;\r\n\t&lt;li&gt;&lt;strong&gt;&amp;amp;&lt;/strong&gt; - Character. Accepts any character. The rule is equivalent to &lt;em&gt;\\S&lt;/em&gt; in regular expressions.&lt;/li&gt;\r\n\t&lt;li&gt;&lt;strong&gt;C&lt;/strong&gt; - Character or space. Accepts any character. The rule is equivalent to &lt;em&gt;.&lt;/em&gt; in regular expressions.&lt;/li&gt;\r\n\t&lt;li&gt;&lt;strong&gt;A&lt;/strong&gt; - Alphanumeric. Accepts letters and digits only.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;a&lt;/strong&gt; - Alphanumeric or space. Accepts letters, digits and space only.&lt;/li&gt;\r\n\t&lt;li&gt;&lt;strong&gt;.&lt;/strong&gt; - Decimal placeholder. The decimal separator will be get from the current culture used by Kendo.&lt;/li&gt;\r\n\t&lt;li&gt;&lt;strong&gt;,&lt;/strong&gt; - Thousands placeholder. The display character will be get from the current culture used by Kendo.&lt;/li&gt;\r\n\t&lt;li&gt;&lt;strong&gt;$&lt;/strong&gt; - Currency symbol. The display character will be get from the current culture used by Kendo.&lt;/li&gt;&lt;/ul&gt;"},{"Name":"Id","DisplayName":"Id","Value":"ea585bb7-61d7-dc42-631e-bf7fa03677b1","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Id is required. Can be any valid javascript attribute value."},{"Name":"DisplayName","DisplayName":"Label","Value":"Mobile Number","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":""},{"Name":"Model","DisplayName":"Model","Value":"vm.models.prospectInquiryEntity.Student.MobilePhoneNumber","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Model is required for binding to a workflow value. \"vm.models.\" is the standard prefix. \r\n\t&lt;br/&gt;This value may initialize the control, and may be updated by the control, \r\n\t&lt;br/&gt;and if matched to a workflow argument, is available in the workflow (readable or writable)"},{"Name":"Placeholder","DisplayName":"Placeholder","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"The prompt text displayed in a ghost style in an input box when nothing has been entered."},{"Name":"Editable","DisplayName":"Read-only","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Makes the control read-only. Typically used for an input box and can be bound to a workflow value or another control's value."},{"Name":"Required","DisplayName":"Required","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Makes the control required and will raise a validation error on the form."},{"Name":"RequiredMessage","DisplayName":"Required Message","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Message which overrides the default required message."},{"Name":"Description","DisplayName":"Tooltip","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Value to display when hovering over the control's label."},{"Name":"MaskPatternMessage","DisplayName":"Validation Message","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"This is the message shown when the user's input does not have a Regex pattern match."},{"Name":"MaskPattern","DisplayName":"Validation Regex","Value":"","IsEditable":true,"IsVisible":true,"EditType":"TextArea","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Regex pattern to validate the input. Use a site like RegExLib.com to search and test Regex patterns, or construct your own Regex with tools like Expresso.\r\n\t&lt;br/&gt;If the user input does not produce a Regex match, the \"Validation Message\" will be displayed. \r\n\t&lt;br/&gt;e.g. a simple Regex that enforces a minimum of 11 digits for a phone number where the first digit must be \"1\" is: 1\\d{10}"},{"Name":"Visible","DisplayName":"Visible","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":""}],"CustomProperty":false,"CustomPropertyKey":null,"ClrType":null,"index":13,"selected":true,"uuid":"ff2f86b1-8a4c-4cfb-1fdf-8af519141078"}]],"uuid":"c039a7b1-a00d-9c57-84f1-05930adcdbab"},{"columns":[[{"ControlType":"MultiSelect","ModuleName":null,"EntityName":null,"EntityNavigationalName":null,"EntityDisplayName":null,"Name":null,"DisplayName":"Multiselect","FullName":"..","ParentEntityName":null,"IsNavigation":false,"NavigationProperties":[],"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"Multiselect","IsEditable":false,"IsVisible":true,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Not Editable"},{"Name":"Uuid","DisplayName":"Uuid","Value":"2d41a5a2-4fbb-27bc-f382-5742c0ff68f4","IsEditable":false,"IsVisible":false,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":null},{"Name":"Class","DisplayName":"Class","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Optional class (or space separated classes) added to top level element of control. CSS specific to the control can be applied. must be defined in a Renderer CSS file."},{"Name":"Disabled","DisplayName":"Disabled","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Sets a control to disabled. Typically this is dynamically bound to a workflow variable or another control's value."},{"Name":"Id","DisplayName":"Id","Value":"c7ae5db3-324b-4f89-875a-718e7dc406c0","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Id is required. Can be any valid javascript attribute value."},{"Name":"DisplayName","DisplayName":"Label","Value":"Program","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":""},{"Name":"LookupQueryDisplayColumn","DisplayName":"Lookup Display Member","Value":"Name","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"The name of the property in the OData query string to use for display."},{"Name":"LookupQueryName","DisplayName":"Lookup Query","Value":"Programs?$select=Code, Name, Id&amp;$filter=IsActive eq true","IsEditable":true,"IsVisible":true,"EditType":"TextArea","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"OData query string to retrieve values for the control."},{"Name":"LookupQuerySortColumn","DisplayName":"Lookup Sort Member","Value":"Name","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"The name of the property in an OData query string to sort on. Default is to use the OData query order."},{"Name":"LookupQueryValueColumn","DisplayName":"Lookup Value Member","Value":"Id","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"The name of the property in the OData query string to use as the value."},{"Name":"Model","DisplayName":"Model","Value":"vm.models.prospectInquiryEntity.Student.ProgramsList","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Model is required for binding to a workflow value. \"vm.models.\" is the standard prefix. \r\n\t&lt;br/&gt;This value may initialize the control, and may be updated by the control, \r\n\t&lt;br/&gt;and if matched to a workflow argument, is available in the workflow (readable or writable)"},{"Name":"OptionLabel","DisplayName":"Option Label","Value":"&lt;Select your Program of Interest&gt;","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"The label used for a dropdown list when nothing is selected."},{"Name":"ProductName","DisplayName":"Product","Value":"Student","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Used to specify the product from which OData query results are returned."},{"Name":"Editable","DisplayName":"Read-only","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Makes the control read-only. Typically used for an input box and can be bound to a workflow value or another control's value."},{"Name":"Required","DisplayName":"Required","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Makes the control required and will raise a validation error on the form."},{"Name":"RequiredMessage","DisplayName":"Required Message","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Message which overrides the default required message."},{"Name":"Description","DisplayName":"Tooltip","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Value to display when hovering over the control's label."},{"Name":"ControlValueList","DisplayName":"Value List","Value":"","IsEditable":false,"IsVisible":false,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"This is a non-visible property used to populate initial values of a dropdownlist or multiselect control"},{"Name":"ControlValueListModel","DisplayName":"Value List","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Button","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Sets Workflow Bound or Value List which overrides a Lookup Query.\r\n\t&lt;br/&gt;The values can be supplied by a list or by a workflow argument which matches the model property set."},{"Name":"Visible","DisplayName":"Visible","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":""}],"CustomProperty":false,"CustomPropertyKey":null,"ClrType":null,"index":14,"selected":true,"uuid":"2d41a5a2-4fbb-27bc-f382-5742c0ff68f4"}]],"uuid":"fa304a22-dfa6-e57b-d4b0-bcbbad6006f0"}]}</Json>
+      <Html>&lt;div class="panel panel-default"&gt;
+&lt;div class="row"&gt;
+	&lt;div class="col-xs-12 col-md-12"&gt;&lt;div class="form-group cmc-div-dropdownlist" ng-init='vm.loadControlValueListModel("null", "")'&gt;
+	&lt;cmc-drop-down-list 
+		cmc-id="ProspectInquiryEntityCampusId" 
+		cmc-model="vm.models.prospectInquiryEntity.CampusId" 
+		cmc-class="" 
+		cmc-disabled="false" 
+		cmc-visible="true" 
+		cmc-label="Campus" 
+		cmc-tooltip="Campus" 
+		cmc-required="true" 
+		cmc-required-message="" 
+		cmc-query="|-OdataFeed-|/Student/Campuses?$select=Code, Name, Id&amp;$filter=IsActive eq true&amp;$orderby=Name" 
+		cmc-query-watch="true" 
+		cmc-options = '{
+			kendoOptions: {
+				existingData: null 
+				}
+			}'
+		cmc-server-filtering="false" 
+		cmc-data-value-field="Id" 
+		cmc-data-text-field="Name" 
+		cmc-sort-column="Name" 	
+		cmc-page-size="100"
+		cmc-ref="vm.controlRefs.values['ProspectInquiryEntityCampusId']"
+		cmc-option-label="&lt;Select&gt;"
+		cmc-on-initialized='vm.onControlInitialized(payload)'
+		cmc-data-bound='vm.onControlDatabound(payload)'&gt;
+	&lt;/cmc-drop-down-list&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="panel panel-default"&gt;
+&lt;div class="row"&gt;
+	&lt;div class="col-xs-12 col-md-4"&gt;&lt;div class="form-group cmc-div-textbox"&gt;
+	&lt;cmc-input-text 
+		cmc-id="StudentEntityFirstName" 
+		cmc-model="vm.models.prospectInquiryEntity.Student.FirstName" 
+		cmc-class="" 
+		cmc-disabled="false" 
+		cmc-visible="true" 
+		cmc-label="First Name" 
+		cmc-input-type="'text'"
+		cmc-tooltip="First Name" 
+		cmc-required="true" 
+		cmc-required-message="" 
+		cmc-readonly="false" 
+		cmc-min-length="1" 
+		cmc-max-length="25"
+		cmc-min=""
+		cmc-max=""
+		cmc-ref="vm.controlRefs.values['StudentEntityFirstName']"
+		cmc-place-holder=""&gt;
+	&lt;/cmc-input-text&gt;
+&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-xs-12 col-md-4"&gt;&lt;div class="form-group cmc-div-textbox"&gt;
+	&lt;cmc-input-text 
+		cmc-id="StudentEntityMiddleName" 
+		cmc-model="vm.models.prospectInquiryEntity.Student.MiddleName" 
+		cmc-class="" 
+		cmc-disabled="false" 
+		cmc-visible="true" 
+		cmc-label="Middle Name" 
+		cmc-input-type="'text'"
+		cmc-tooltip="Middle Name" 
+		cmc-required="false" 
+		cmc-required-message="" 
+		cmc-readonly="false" 
+		cmc-min-length="1" 
+		cmc-max-length="100"
+		cmc-min=""
+		cmc-max=""
+		cmc-ref="vm.controlRefs.values['StudentEntityMiddleName']"
+		cmc-place-holder=""&gt;
+	&lt;/cmc-input-text&gt;
+&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-xs-12 col-md-4"&gt;&lt;div class="form-group cmc-div-textbox"&gt;
+	&lt;cmc-input-text 
+		cmc-id="StudentEntityLastName" 
+		cmc-model="vm.models.prospectInquiryEntity.Student.LastName" 
+		cmc-class="" 
+		cmc-disabled="false" 
+		cmc-visible="true" 
+		cmc-label="Last Name" 
+		cmc-input-type="'text'"
+		cmc-tooltip="Last Name" 
+		cmc-required="true" 
+		cmc-required-message="" 
+		cmc-readonly="false" 
+		cmc-min-length="1" 
+		cmc-max-length="25"
+		cmc-min=""
+		cmc-max=""
+		cmc-ref="vm.controlRefs.values['StudentEntityLastName']"
+		cmc-place-holder=""&gt;
+	&lt;/cmc-input-text&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="panel panel-default"&gt;
+&lt;div class="row"&gt;
+	&lt;div class="col-xs-12 col-md-12"&gt;&lt;div class="form-group cmc-div-textbox"&gt;
+	&lt;cmc-input-text 
+		cmc-id="StudentEntityStreetAddress" 
+		cmc-model="vm.models.prospectInquiryEntity.Student.StreetAddress" 
+		cmc-class="" 
+		cmc-disabled="false" 
+		cmc-visible="true" 
+		cmc-label="Street Address" 
+		cmc-input-type="'text'"
+		cmc-tooltip="Street Address" 
+		cmc-required="true" 
+		cmc-required-message="" 
+		cmc-readonly="false" 
+		cmc-min-length="1" 
+		cmc-max-length="255"
+		cmc-min=""
+		cmc-max=""
+		cmc-ref="vm.controlRefs.values['StudentEntityStreetAddress']"
+		cmc-place-holder=""&gt;
+	&lt;/cmc-input-text&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="panel panel-default"&gt;
+&lt;div class="row"&gt;
+	&lt;div class="col-xs-12 col-md-4"&gt;&lt;div class="form-group cmc-div-textbox"&gt;
+	&lt;cmc-input-text 
+		cmc-id="StudentEntityCity" 
+		cmc-model="vm.models.prospectInquiryEntity.Student.City" 
+		cmc-class="" 
+		cmc-disabled="false" 
+		cmc-visible="true" 
+		cmc-label="City" 
+		cmc-input-type="'text'"
+		cmc-tooltip="City" 
+		cmc-required="true" 
+		cmc-required-message="" 
+		cmc-readonly="false" 
+		cmc-min-length="1" 
+		cmc-max-length="25"
+		cmc-min=""
+		cmc-max=""
+		cmc-ref="vm.controlRefs.values['StudentEntityCity']"
+		cmc-place-holder=""&gt;
+	&lt;/cmc-input-text&gt;
+&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-xs-12 col-md-4"&gt;&lt;div class="form-group cmc-div-dropdownlist" ng-init='vm.loadControlValueListModel("null", "")'&gt;
+	&lt;cmc-drop-down-list 
+		cmc-id="StudentEntityState" 
+		cmc-model="vm.models.prospectInquiryEntity.Student.State" 
+		cmc-class="" 
+		cmc-disabled="false" 
+		cmc-visible="true" 
+		cmc-label="State" 
+		cmc-tooltip="State" 
+		cmc-required="true" 
+		cmc-required-message="" 
+		cmc-query="|-OdataFeed-|/Student/UsaStates?$select=Code,Name,Id&amp;$filter=IsActive eq true" 
+		cmc-query-watch="true" 
+		cmc-options = '{
+			kendoOptions: {
+				existingData: null 
+				}
+			}'
+		cmc-server-filtering="false" 
+		cmc-data-value-field="Code" 
+		cmc-data-text-field="Name" 
+		cmc-sort-column="Code" 	
+		cmc-page-size="100"
+		cmc-ref="vm.controlRefs.values['StudentEntityState']"
+		cmc-option-label="&lt;Select&gt;"
+		cmc-on-initialized='vm.onControlInitialized(payload)'
+		cmc-data-bound='vm.onControlDatabound(payload)'&gt;
+	&lt;/cmc-drop-down-list&gt;
+&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-xs-12 col-md-4"&gt;&lt;div class="form-group cmc-div-textbox"&gt;
+	&lt;cmc-input-text 
+		cmc-id="StudentEntityPostalCode" 
+		cmc-model="vm.models.prospectInquiryEntity.Student.PostalCode" 
+		cmc-class="" 
+		cmc-disabled="false" 
+		cmc-visible="true" 
+		cmc-label="Postal Code" 
+		cmc-input-type="'text'"
+		cmc-tooltip="Postal Code" 
+		cmc-required="true" 
+		cmc-required-message="" 
+		cmc-readonly="false" 
+		cmc-min-length="1" 
+		cmc-max-length="10"
+		cmc-min=""
+		cmc-max=""
+		cmc-ref="vm.controlRefs.values['StudentEntityPostalCode']"
+		cmc-place-holder=""&gt;
+	&lt;/cmc-input-text&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="panel panel-default"&gt;
+&lt;div class="row"&gt;
+	&lt;div class="col-xs-12 col-md-4"&gt;&lt;div class="form-group cmc-div-textbox"&gt;
+	&lt;cmc-input-text 
+		cmc-id="StudentEntityEmailAddress" 
+		cmc-model="vm.models.prospectInquiryEntity.Student.EmailAddress" 
+		cmc-class="" 
+		cmc-disabled="false" 
+		cmc-visible="true" 
+		cmc-label="Email address" 
+		cmc-input-type="'text'"
+		cmc-tooltip="Email address" 
+		cmc-required="true" 
+		cmc-required-message="" 
+		cmc-readonly="false" 
+		cmc-min-length="1" 
+		cmc-max-length="50"
+		cmc-min=""
+		cmc-max=""
+		cmc-ref="vm.controlRefs.values['StudentEntityEmailAddress']"
+		cmc-place-holder=""&gt;
+	&lt;/cmc-input-text&gt;
+&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-xs-12 col-md-4"&gt;&lt;div class="form-group cmc-div-masked-textbox"&gt;
+	&lt;cmc-masked-input-text 
+		cmc-id="52927c93-e9fc-952a-7f70-5e8400ef7b94" 
+		cmc-model="vm.models.prospectInquiryEntity.Student.PhoneNumber" 
+		cmc-class="" 
+		cmc-disabled="false" 
+		cmc-visible="true" 
+		cmc-label="Phone Number" 
+		cmc-tooltip="" 
+		cmc-required="true" 
+		cmc-required-message="" 
+		cmc-readonly="false" 
+		cmc-input-mask="'(###)###-####'" 
+		cmc-ref="vm.controlRefs.values['52927c93-e9fc-952a-7f70-5e8400ef7b94']"
+		cmc-place-holder=""
+		cmc-pattern=""
+		cmc-pattern-message=""&gt;
+	&lt;/cmc-masked-input-text&gt;
+&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-xs-12 col-md-4"&gt;&lt;div class="form-group cmc-div-masked-textbox"&gt;
+	&lt;cmc-masked-input-text 
+		cmc-id="ea585bb7-61d7-dc42-631e-bf7fa03677b1" 
+		cmc-model="vm.models.prospectInquiryEntity.Student.MobilePhoneNumber" 
+		cmc-class="" 
+		cmc-disabled="false" 
+		cmc-visible="true" 
+		cmc-label="Mobile Number" 
+		cmc-tooltip="" 
+		cmc-required="false" 
+		cmc-required-message="" 
+		cmc-readonly="false" 
+		cmc-input-mask="'(###)###-####'" 
+		cmc-ref="vm.controlRefs.values['ea585bb7-61d7-dc42-631e-bf7fa03677b1']"
+		cmc-place-holder=""
+		cmc-pattern=""
+		cmc-pattern-message=""&gt;
+	&lt;/cmc-masked-input-text&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="panel panel-default"&gt;
+&lt;div class="row"&gt;
+	&lt;div class="col-xs-12 col-md-12"&gt;&lt;div class="form-group cmc-div-multiselect" ng-init='vm.loadControlValueListModel("null", "")'&gt;
+	&lt;cmc-multi-select 
+		cmc-id="c7ae5db3-324b-4f89-875a-718e7dc406c0" 
+		cmc-model="vm.models.prospectInquiryEntity.Student.ProgramsList" 
+		cmc-class="" 
+		cmc-disabled="false" 
+		cmc-visible="true" 
+		cmc-label="Program" 
+		cmc-tooltip="" 
+		cmc-required="true" 
+		cmc-required-message="" 
+		cmc-readonly="false" 
+		cmc-query="|-OdataFeed-|/Student/Programs?$select=Code, Name, Id&amp;$filter=IsActive eq true"
+		cmc-query-watch="true" 
+		cmc-options = '{
+			kendoOptions: {
+				existingData: null
+				}
+			}'
+		cmc-data-value-field="Id" 
+		cmc-data-text-field="Name" 
+		cmc-sort-column="Name" 
+		cmc-ref="vm.controlRefs.values['c7ae5db3-324b-4f89-875a-718e7dc406c0']"
+		cmc-option-label="&lt;Select your Program of Interest&gt;"&gt;
+	&lt;/cmc-multi-select&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</Html>
+      <IsEndState>false</IsEndState>
+      <IncludeInViewSummary>true</IncludeInViewSummary>
+      <CssClass></CssClass>
+      <FormId></FormId>
+      <OriginalState>H4sIAAAAAAAEAD3MQQrCMBAAwK9I7mZTeysqeFbpoSJel5C0C01Ssisxvl6s4ANm9qecsfb+7Ood56frPUumOGKst7q4zSvMkQ9qElk6ALaTC8g6kM2JkxdtU4CdMS00BgaXCWd6o1CKsMasfkNH/6OUokurUx6/sIHH9TKs7ZYiC0brFBw/juQnSpcAAAA=</OriginalState>
+      <SecureState>H4sIAAAAAAAEAD3MQQrCMBAAwK9I7mZTeysqeFbpoSJel5C0C01Ssisxvl6s4ANm9qecsfb+7Ood56frPUumOGKst7q4zSvMkQ9qElk6ALaTC8g6kM2JkxdtU4CdMS00BgaXCWd6o1CKsMasfkNH/6OUokurUx6/sIHH9TKs7ZYiC0brFBw/juQnSpcAAAA=</SecureState>
+      <EntityState>0</EntityState>
+    </Forms>
+    <WorkflowDefinition>
+      <Name>Template - Request for Information</Name>
+      <EntityType>Cmc.Core.Eventing.VoidEntity, Cmc.Core</EntityType>
+      <EventType>Cmc.Core.Eventing.ConstructedEvent, Cmc.Core</EventType>
+      <DateCreated>2017-11-07T19:29:26.453</DateCreated>
+      <DateModified>2017-11-07T19:29:26.453</DateModified>
+      <Id>0</Id>
+      <OriginalState>H4sIAAAAAAAEALXSwYrCQAwA0F+RudtUvZVaWNSDqOvBZfEaaqqBTkZm4tb69dpZ2Fs9LPQyISR5hDD5h/fY7qsNtd9Y32hfBfUsZ5T2q73S6G5rCXNzUb1mAKG8kMWQWC69C67SpHQWpmk6g0kKB/KMNT9Q2QlEOJhfIeM/o2mapJklzp+7wQkcd9tDZMcsQVFKMkXes04sFOtTDl3MY8uIM+F6btTfyEARS72z/egnWhqAXYmyxnwI/IdEB7KXqLTw9HqHuHan79yJK/4vD+8/bvEEgGNZbtkCAAA=</OriginalState>
+      <SecureState>H4sIAAAAAAAEAD3MQQrCMBAAwK9I7mZTeysqeFbpoSJel5C0C01Ssisxvl6s4ANm9qecsfb+7Ood56frPUumOGKst7q4zSvMkQ9qElk6ALaTC8g6kM2JkxdtU4CdMS00BgaXCWd6o1CKsMasfkNH/6OUokurUx6/sIHH9TKs7ZYiC0brFBw/juQnSpcAAAA=</SecureState>
+      <EntityState>0</EntityState>
+    </WorkflowDefinition>
+    <EnabledWorkflowDefinitionVersion>
+      <WorkflowDefinitionId>0</WorkflowDefinitionId>
+      <Xaml>&lt;Activity mc:Ignorable="sap sap2010 sads" x:Class="Template - Request for Information"
+ xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities"
+ xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+ xmlns:cce="clr-namespace:Cmc.Core.Eventing;assembly=Cmc.Core"
+ xmlns:ccwa="clr-namespace:Cmc.Core.Workflow.Activities;assembly=Cmc.Core.Workflow"
+ xmlns:ccwae="clr-namespace:Cmc.Core.Workflow.Activities.EntityModel;assembly=Cmc.Core.Workflow"
+ xmlns:cnae="clr-namespace:Cmc.Nexus.Admissions.Entities;assembly=Cmc.Nexus.Admissions.Contracts"
+ xmlns:cnf="clr-namespace:Cmc.Nexus.FormsBuilder;assembly=Cmc.Nexus.FormsBuilder.Contracts"
+ xmlns:cnfw="clr-namespace:Cmc.Nexus.FormsBuilder.Workflow;assembly=Cmc.Nexus.FormsBuilder.Workflow"
+ xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+ xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities"
+ xmlns:s="clr-namespace:System;assembly=mscorlib"
+ xmlns:sads="http://schemas.microsoft.com/netfx/2010/xaml/activities/debugger"
+ xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation"
+ xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation"
+ xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib"
+ xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib"
+ xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"&gt;
+  &lt;x:Members&gt;
+    &lt;x:Property Name="formInstance" Type="InOutArgument(cnf:FormInstance)" /&gt;
+    &lt;x:Property Name="entity" Type="InOutArgument(cce:VoidEntity)" /&gt;
+    &lt;x:Property Name="event" Type="InOutArgument(cce:ConstructedEvent)" /&gt;
+    &lt;x:Property Name="prospectInquiryEntity" Type="InOutArgument(cnae:ProspectInquiryEntity)" /&gt;
+  &lt;/x:Members&gt;
+  &lt;mva:VisualBasic.Settings&gt;
+    &lt;x:Null /&gt;
+  &lt;/mva:VisualBasic.Settings&gt;
+  &lt;sap2010:WorkflowViewState.IdRef&gt;Template - Request for Information_1&lt;/sap2010:WorkflowViewState.IdRef&gt;
+  &lt;TextExpression.NamespacesForImplementation&gt;
+    &lt;sco:Collection x:TypeArguments="x:String"&gt;
+      &lt;x:String&gt;System.Activities&lt;/x:String&gt;
+      &lt;x:String&gt;System.Activities.Statements&lt;/x:String&gt;
+      &lt;x:String&gt;System.Activities.Expressions&lt;/x:String&gt;
+      &lt;x:String&gt;System.Activities.Validation&lt;/x:String&gt;
+      &lt;x:String&gt;System.Activities.XamlIntegration&lt;/x:String&gt;
+      &lt;x:String&gt;Cmc.Nexus.FormsBuilder.Workflow&lt;/x:String&gt;
+      &lt;x:String&gt;Microsoft.VisualBasic.Activities&lt;/x:String&gt;
+      &lt;x:String&gt;System&lt;/x:String&gt;
+      &lt;x:String&gt;System.Windows.Markup&lt;/x:String&gt;
+      &lt;x:String&gt;Cmc.Nexus.Admissions.Entities&lt;/x:String&gt;
+      &lt;x:String&gt;Cmc.Nexus.FormsBuilder&lt;/x:String&gt;
+      &lt;x:String&gt;Cmc.Core.Eventing&lt;/x:String&gt;
+      &lt;x:String&gt;Newtonsoft.Json&lt;/x:String&gt;
+      &lt;x:String&gt;Cmc.Core.EntityModel&lt;/x:String&gt;
+      &lt;x:String&gt;Cmc.Core.ComponentModel&lt;/x:String&gt;
+      &lt;x:String&gt;Cmc.Nexus.Common.Entities&lt;/x:String&gt;
+    &lt;/sco:Collection&gt;
+  &lt;/TextExpression.NamespacesForImplementation&gt;
+  &lt;TextExpression.ReferencesForImplementation&gt;
+    &lt;sco:Collection x:TypeArguments="AssemblyReference"&gt;
+      &lt;AssemblyReference&gt;System.Activities&lt;/AssemblyReference&gt;
+      &lt;AssemblyReference&gt;Cmc.Nexus.FormsBuilder.Workflow&lt;/AssemblyReference&gt;
+      &lt;AssemblyReference&gt;mscorlib&lt;/AssemblyReference&gt;
+      &lt;AssemblyReference&gt;PresentationFramework&lt;/AssemblyReference&gt;
+      &lt;AssemblyReference&gt;WindowsBase&lt;/AssemblyReference&gt;
+      &lt;AssemblyReference&gt;PresentationCore&lt;/AssemblyReference&gt;
+      &lt;AssemblyReference&gt;System.Xaml&lt;/AssemblyReference&gt;
+      &lt;AssemblyReference&gt;Cmc.Nexus.Admissions.Contracts&lt;/AssemblyReference&gt;
+      &lt;AssemblyReference&gt;Cmc.Nexus.FormsBuilder.Contracts&lt;/AssemblyReference&gt;
+      &lt;AssemblyReference&gt;Cmc.Core&lt;/AssemblyReference&gt;
+      &lt;AssemblyReference&gt;System.Core&lt;/AssemblyReference&gt;
+      &lt;AssemblyReference&gt;System&lt;/AssemblyReference&gt;
+      &lt;AssemblyReference&gt;System.ServiceModel&lt;/AssemblyReference&gt;
+      &lt;AssemblyReference&gt;System.Runtime.WindowsRuntime&lt;/AssemblyReference&gt;
+      &lt;AssemblyReference&gt;Newtonsoft.Json&lt;/AssemblyReference&gt;
+      &lt;AssemblyReference&gt;Cmc.Nexus.Common.Contracts&lt;/AssemblyReference&gt;
+      &lt;AssemblyReference&gt;System.ComponentModel.Composition&lt;/AssemblyReference&gt;
+    &lt;/sco:Collection&gt;
+  &lt;/TextExpression.ReferencesForImplementation&gt;
+  &lt;StateMachine sap2010:WorkflowViewState.IdRef="StateMachine_1"&gt;
+    &lt;StateMachine.InitialState&gt;
+      &lt;State x:Name="__ReferenceID0" DisplayName="Request for Information" sap2010:WorkflowViewState.IdRef="State_2"&gt;
+        &lt;State.Entry&gt;
+          &lt;ccwae:CreateEntity x:TypeArguments="cnae:ProspectInquiryEntity" sap2010:WorkflowViewState.IdRef="CreateEntity`1_1" Result="[prospectInquiryEntity]" /&gt;
+        &lt;/State.Entry&gt;
+        &lt;State.Transitions&gt;
+          &lt;Transition DisplayName="Start Your Journey" sap2010:WorkflowViewState.IdRef="Transition_1"&gt;
+            &lt;Transition.Trigger&gt;
+              &lt;Sequence sap2010:WorkflowViewState.IdRef="Sequence_3"&gt;
+                &lt;cnfw:WaitForFormBookmark DisplayName="Start Your Journey" DisplayOrder="0" sap2010:WorkflowViewState.IdRef="WaitForFormBookmark_1" TransitionType="Default" /&gt;
+                &lt;Sequence DisplayName="Create Prospect" sap2010:WorkflowViewState.IdRef="Sequence_2"&gt;
+                  &lt;Sequence DisplayName="Assign Values" sap2010:WorkflowViewState.IdRef="Sequence_1"&gt;
+                    &lt;Assign DisplayName="Assign School Status" sap2010:WorkflowViewState.IdRef="Assign_1"&gt;
+                      &lt;Assign.To&gt;
+                        &lt;OutArgument x:TypeArguments="x:Int32"&gt;[prospectInquiryEntity.Student.SchoolStatusId]&lt;/OutArgument&gt;
+                      &lt;/Assign.To&gt;
+                      &lt;Assign.Value&gt;
+                        &lt;InArgument x:TypeArguments="x:Int32"&gt;1&lt;/InArgument&gt;
+                      &lt;/Assign.Value&gt;
+                    &lt;/Assign&gt;
+                    &lt;Assign DisplayName="Assign Lead Type" sap2010:WorkflowViewState.IdRef="Assign_2"&gt;
+                      &lt;Assign.To&gt;
+                        &lt;OutArgument x:TypeArguments="s:Nullable(x:Int32)"&gt;[prospectInquiryEntity.LeadTypeId]&lt;/OutArgument&gt;
+                      &lt;/Assign.To&gt;
+                      &lt;Assign.Value&gt;
+                        &lt;InArgument x:TypeArguments="s:Nullable(x:Int32)"&gt;[14]&lt;/InArgument&gt;
+                      &lt;/Assign.Value&gt;
+                    &lt;/Assign&gt;
+                    &lt;Assign DisplayName="Assign Lead Source" sap2010:WorkflowViewState.IdRef="Assign_3"&gt;
+                      &lt;Assign.To&gt;
+                        &lt;OutArgument x:TypeArguments="s:Nullable(x:Int32)"&gt;[prospectInquiryEntity.LeadSourceId]&lt;/OutArgument&gt;
+                      &lt;/Assign.To&gt;
+                      &lt;Assign.Value&gt;
+                        &lt;InArgument x:TypeArguments="s:Nullable(x:Int32)"&gt;[680]&lt;/InArgument&gt;
+                      &lt;/Assign.Value&gt;
+                    &lt;/Assign&gt;
+                    &lt;Assign DisplayName="Assign Admin Rep" sap2010:WorkflowViewState.IdRef="Assign_4"&gt;
+                      &lt;Assign.To&gt;
+                        &lt;OutArgument x:TypeArguments="s:Nullable(x:Int32)"&gt;[prospectInquiryEntity.AssignedAdmissionsRepId]&lt;/OutArgument&gt;
+                      &lt;/Assign.To&gt;
+                      &lt;Assign.Value&gt;
+                        &lt;InArgument x:TypeArguments="s:Nullable(x:Int32)"&gt;[534]&lt;/InArgument&gt;
+                      &lt;/Assign.Value&gt;
+                    &lt;/Assign&gt;
+                    &lt;Assign DisplayName="Assign CountryID" sap2010:WorkflowViewState.IdRef="Assign_5"&gt;
+                      &lt;Assign.To&gt;
+                        &lt;OutArgument x:TypeArguments="s:Nullable(x:Int32)"&gt;[prospectInquiryEntity.Student.CountryId]&lt;/OutArgument&gt;
+                      &lt;/Assign.To&gt;
+                      &lt;Assign.Value&gt;
+                        &lt;InArgument x:TypeArguments="s:Nullable(x:Int32)"&gt;[7]&lt;/InArgument&gt;
+                      &lt;/Assign.Value&gt;
+                    &lt;/Assign&gt;
+                    &lt;Assign DisplayName="Assign Lead Date" sap2010:WorkflowViewState.IdRef="Assign_6"&gt;
+                      &lt;Assign.To&gt;
+                        &lt;OutArgument x:TypeArguments="s:DateTime"&gt;[prospectInquiryEntity.LeadDate]&lt;/OutArgument&gt;
+                      &lt;/Assign.To&gt;
+                      &lt;Assign.Value&gt;
+                        &lt;InArgument x:TypeArguments="s:DateTime"&gt;[DateTime.Now]&lt;/InArgument&gt;
+                      &lt;/Assign.Value&gt;
+                    &lt;/Assign&gt;
+                  &lt;/Sequence&gt;
+                  &lt;ccwa:LogLine DisplayName="Log Prospect Inquiry Values" sap2010:WorkflowViewState.IdRef="LogLine_1" Text="[Newtonsoft.Json.JsonConvert.SerializeObject(prospectInquiryEntity, Newtonsoft.Json.Formatting.Indented)]" /&gt;
+                  &lt;ccwae:SaveEntity x:TypeArguments="cnae:ProspectInquiryEntity" Entity="[prospectInquiryEntity]" sap2010:WorkflowViewState.IdRef="SaveEntity`1_1" ValidationMessages="[forminstance.ValidationMessages]" /&gt;
+                  &lt;ccwa:LogLine DisplayName="Log Student ID" sap2010:WorkflowViewState.IdRef="LogLine_2" Text="[Environment.NewLine + &amp;quot;Student ID:  &amp;quot;  + prospectInquiryEntity.StudentId.ToString + &amp;quot; created on &amp;quot; + DateTime.Now.ToString + &amp;quot; for student: &amp;quot; + prospectInquiryEntity.Student.FirstName + &amp;quot; &amp;quot; + prospectInquiryEntity.Student.LastName]" /&gt;
+                &lt;/Sequence&gt;
+              &lt;/Sequence&gt;
+            &lt;/Transition.Trigger&gt;
+            &lt;Transition.Condition&gt;[not formInstance.ValidationMessages.HasErrors]&lt;/Transition.Condition&gt;
+            &lt;Transition.To&gt;
+              &lt;State x:Name="__ReferenceID1" DisplayName="End" sap2010:WorkflowViewState.IdRef="State_1" IsFinal="True" /&gt;
+            &lt;/Transition.To&gt;
+          &lt;/Transition&gt;
+        &lt;/State.Transitions&gt;
+      &lt;/State&gt;
+    &lt;/StateMachine.InitialState&gt;
+    &lt;x:Reference&gt;__ReferenceID0&lt;/x:Reference&gt;
+    &lt;x:Reference&gt;__ReferenceID1&lt;/x:Reference&gt;
+    &lt;StateMachine.Variables&gt;
+      &lt;Variable x:TypeArguments="x:String" Name="renderedFormImage" /&gt;
+    &lt;/StateMachine.Variables&gt;
+    &lt;sads:DebugSymbol.Symbol&gt;dy9DOlxVc2Vyc1xrbHlvblxBcHBEYXRhXExvY2FsXFRlbXBcNVx0bXBBNDQ4LnRtcCNGA5gBEgIBAUgHkAEPAgEEjAEPjAF7AgECSgtKogECASVPD4gBGgIBB4oBI4oBUgIBBkqGAUqfAQIBJlARULABAgEkURGHARwCAQhSE4MBHgIBEYQBE4QB6gECAQ+FAROFAd0BAgELhgEThgGEAwIBCVMVWh4CASFbFWIeAgEeYxVqHgIBG2sVch4CARhzFXoeAgEVexWCAR4CARKEAXyEAecBAgEQhQFZhQFyAgENhQG3AYUB2gECAQyGAW+GAYEDAgEKWD9YQAIBI1VAVW4CASJgS2BPAgEgXUxdbgIBH2hLaFACAR1lTGVwAgEccEtwUAIBGm1MbXsCARl4S3hOAgEXdUx1dQIBFoABQoABUAIBFH1DfWMCARM=&lt;/sads:DebugSymbol.Symbol&gt;
+  &lt;/StateMachine&gt;
+  &lt;sap2010:WorkflowViewState.ViewStateManager&gt;
+    &lt;sap2010:ViewStateManager&gt;
+      &lt;sap2010:ViewStateData Id="CreateEntity`1_1" sap:VirtualizedContainerService.HintSize="200,22.4" /&gt;
+      &lt;sap2010:ViewStateData Id="WaitForFormBookmark_1" sap:VirtualizedContainerService.HintSize="288,22.4" /&gt;
+      &lt;sap2010:ViewStateData Id="Assign_1" sap:VirtualizedContainerService.HintSize="243.2,60.8" /&gt;
+      &lt;sap2010:ViewStateData Id="Assign_2" sap:VirtualizedContainerService.HintSize="243.2,62.4" /&gt;
+      &lt;sap2010:ViewStateData Id="Assign_3" sap:VirtualizedContainerService.HintSize="243.2,60.8" /&gt;
+      &lt;sap2010:ViewStateData Id="Assign_4" sap:VirtualizedContainerService.HintSize="243.2,60.8" /&gt;
+      &lt;sap2010:ViewStateData Id="Assign_5" sap:VirtualizedContainerService.HintSize="243.2,60.8" /&gt;
+      &lt;sap2010:ViewStateData Id="Assign_6" sap:VirtualizedContainerService.HintSize="243.2,60.8" /&gt;
+      &lt;sap2010:ViewStateData Id="Sequence_1" sap:VirtualizedContainerService.HintSize="265.6,691.2"&gt;
+        &lt;sap:WorkflowViewStateService.ViewState&gt;
+          &lt;scg:Dictionary x:TypeArguments="x:String, x:Object"&gt;
+            &lt;x:Boolean x:Key="IsExpanded"&gt;True&lt;/x:Boolean&gt;
+            &lt;x:Boolean x:Key="IsPinned"&gt;False&lt;/x:Boolean&gt;
+          &lt;/scg:Dictionary&gt;
+        &lt;/sap:WorkflowViewStateService.ViewState&gt;
+      &lt;/sap2010:ViewStateData&gt;
+      &lt;sap2010:ViewStateData Id="LogLine_1" sap:VirtualizedContainerService.HintSize="265.6,115.2" /&gt;
+      &lt;sap2010:ViewStateData Id="SaveEntity`1_1" sap:VirtualizedContainerService.HintSize="264,22" /&gt;
+      &lt;sap2010:ViewStateData Id="LogLine_2" sap:VirtualizedContainerService.HintSize="264,111" /&gt;
+      &lt;sap2010:ViewStateData Id="Sequence_2" sap:VirtualizedContainerService.HintSize="288,1184"&gt;
+        &lt;sap:WorkflowViewStateService.ViewState&gt;
+          &lt;scg:Dictionary x:TypeArguments="x:String, x:Object"&gt;
+            &lt;x:Boolean x:Key="IsExpanded"&gt;True&lt;/x:Boolean&gt;
+            &lt;x:Boolean x:Key="IsPinned"&gt;False&lt;/x:Boolean&gt;
+          &lt;/scg:Dictionary&gt;
+        &lt;/sap:WorkflowViewStateService.ViewState&gt;
+      &lt;/sap2010:ViewStateData&gt;
+      &lt;sap2010:ViewStateData Id="Sequence_3" sap:VirtualizedContainerService.HintSize="310.4,1371.2"&gt;
+        &lt;sap:WorkflowViewStateService.ViewState&gt;
+          &lt;scg:Dictionary x:TypeArguments="x:String, x:Object"&gt;
+            &lt;x:Boolean x:Key="IsExpanded"&gt;True&lt;/x:Boolean&gt;
+          &lt;/scg:Dictionary&gt;
+        &lt;/sap:WorkflowViewStateService.ViewState&gt;
+      &lt;/sap2010:ViewStateData&gt;
+      &lt;sap2010:ViewStateData Id="State_1" sap:VirtualizedContainerService.HintSize="113.6,60.8"&gt;
+        &lt;sap:WorkflowViewStateService.ViewState&gt;
+          &lt;scg:Dictionary x:TypeArguments="x:String, x:Object"&gt;
+            &lt;av:Point x:Key="ShapeLocation"&gt;50,191&lt;/av:Point&gt;
+            &lt;av:Size x:Key="ShapeSize"&gt;113.6,60.8&lt;/av:Size&gt;
+            &lt;x:Boolean x:Key="IsPinned"&gt;False&lt;/x:Boolean&gt;
+          &lt;/scg:Dictionary&gt;
+        &lt;/sap:WorkflowViewStateService.ViewState&gt;
+      &lt;/sap2010:ViewStateData&gt;
+      &lt;sap2010:ViewStateData Id="Transition_1" sap:VirtualizedContainerService.HintSize="430.4,1832"&gt;
+        &lt;sap:WorkflowViewStateService.ViewState&gt;
+          &lt;scg:Dictionary x:TypeArguments="x:String, x:Object"&gt;
+            &lt;x:Int32 x:Key="SrcConnectionPointIndex"&gt;3&lt;/x:Int32&gt;
+            &lt;x:Int32 x:Key="DestConnectionPointIndex"&gt;2&lt;/x:Int32&gt;
+            &lt;av:PointCollection x:Key="ConnectorLocation"&gt;55.7,141 55.7,191&lt;/av:PointCollection&gt;
+          &lt;/scg:Dictionary&gt;
+        &lt;/sap:WorkflowViewStateService.ViewState&gt;
+      &lt;/sap2010:ViewStateData&gt;
+      &lt;sap2010:ViewStateData Id="State_2" sap:VirtualizedContainerService.HintSize="326.4,476.8"&gt;
+        &lt;sap:WorkflowViewStateService.ViewState&gt;
+          &lt;scg:Dictionary x:TypeArguments="x:String, x:Object"&gt;
+            &lt;av:Point x:Key="ShapeLocation"&gt;50,80&lt;/av:Point&gt;
+            &lt;av:Size x:Key="ShapeSize"&gt;113.6,60.8&lt;/av:Size&gt;
+            &lt;x:Boolean x:Key="IsPinned"&gt;False&lt;/x:Boolean&gt;
+          &lt;/scg:Dictionary&gt;
+        &lt;/sap:WorkflowViewStateService.ViewState&gt;
+      &lt;/sap2010:ViewStateData&gt;
+      &lt;sap2010:ViewStateData Id="StateMachine_1" sap:VirtualizedContainerService.HintSize="614.4,636.8"&gt;
+        &lt;sap:WorkflowViewStateService.ViewState&gt;
+          &lt;scg:Dictionary x:TypeArguments="x:String, x:Object"&gt;
+            &lt;x:Boolean x:Key="IsExpanded"&gt;False&lt;/x:Boolean&gt;
+            &lt;av:Point x:Key="ShapeLocation"&gt;270,2.5&lt;/av:Point&gt;
+            &lt;x:Double x:Key="StateContainerWidth"&gt;600&lt;/x:Double&gt;
+            &lt;x:Double x:Key="StateContainerHeight"&gt;600&lt;/x:Double&gt;
+            &lt;av:PointCollection x:Key="ConnectorLocation"&gt;300,77.5 300,110.5 164,110.5&lt;/av:PointCollection&gt;
+          &lt;/scg:Dictionary&gt;
+        &lt;/sap:WorkflowViewStateService.ViewState&gt;
+      &lt;/sap2010:ViewStateData&gt;
+      &lt;sap2010:ViewStateData Id="Template - Request for Information_1" sap:VirtualizedContainerService.HintSize="654.4,716.8" /&gt;
+    &lt;/sap2010:ViewStateManager&gt;
+  &lt;/sap2010:WorkflowViewState.ViewStateManager&gt;
+&lt;/Activity&gt;</Xaml>
+      <Version>3</Version>
+      <Major>1</Major>
+      <Minor>0</Minor>
+      <Build>0</Build>
+      <Revision>3</Revision>
+      <PublishedBy>klyon</PublishedBy>
+      <SourceLocation>PO-170 [Workflow Designer]</SourceLocation>
+      <DateCreated>2018-05-15T20:18:09.86</DateCreated>
+      <DateModified>2018-05-15T20:18:09.86</DateModified>
+      <IsEnabled>true</IsEnabled>
+      <Id>0</Id>
+      <OriginalState>H4sIAAAAAAAEALXUwU7DMAwA0F+Zeqfp2K3qKjHGYWLVEEWwq5c6qyGNpySllK9nDRK3cZiUSy6Wny07SXFnLYw79YjjK+ged8p5S+YIZnwZTzj76rRxy6T1/pQL4WSLHbi0I2nZsfKp5E7cZtlCzDNRoyXQ9A2e2IgAu+RXyOnPGIYhHRYp2+OUOBf7alsH9oaM82AkJmVxoZ0QKN/YfijNwxoVGZqKbZpCTJEiJM0oN6SXibc9JqIMoYva5TJ76HQEtoJ3tjFcMlHcVU86xnif8ZPceXcR6I17MHDQGKPtmnsrccsy3PIIBZ76gybXYrMaI+hr8Hhv8XzGGM6kV9yQoij8tc9c/P/JlT9at+wSBQUAAA==</OriginalState>
+      <SecureState>H4sIAAAAAAAEAD3MQQrCMBAAwK9I7mZTeysqeFbpoSJel5C0C01Ssisxvl6s4ANm9qecsfb+7Ood56frPUumOGKst7q4zSvMkQ9qElk6ALaTC8g6kM2JkxdtU4CdMS00BgaXCWd6o1CKsMasfkNH/6OUokurUx6/sIHH9TKs7ZYiC0brFBw/juQnSpcAAAA=</SecureState>
+      <EntityState>0</EntityState>
+    </EnabledWorkflowDefinitionVersion>
+  </ExportedSequences>
+  <FormsBuilderVersion>3.3.0.192</FormsBuilderVersion>
+  <ExportedDateTimeInUtc>05/15/2018 20:20:22</ExportedDateTimeInUtc>
+  <DbConnectionString>Data Source=QASQLQA4;initial catalog=FB_Portal2_C2000_182;Integrated Security=SSPI;Persist Security Info=False;MultipleActiveResultSets=True</DbConnectionString>
+</Export>
