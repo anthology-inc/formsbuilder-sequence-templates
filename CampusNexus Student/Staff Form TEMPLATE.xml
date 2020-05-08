@@ -1,0 +1,530 @@
+<Export>
+  <ExportedSequences>
+    <Sequence>
+      <Id>0</Id>
+      <Name>Staff Personal Information Update</Name>
+      <Url></Url>
+      <Title>Staff Personal Information Update Sequence SC</Title>
+      <Description></Description>
+      <WorkflowDefinitionId>0</WorkflowDefinitionId>
+      <IsAnonymous>false</IsAnonymous>
+      <EndStateForm>Default-Confirmation</EndStateForm>
+      <AuthenticationProduct>Student</AuthenticationProduct>
+      <KendoTheme>Silver</KendoTheme>
+      <BootstrapTheme>Lumen</BootstrapTheme>
+      <CustomTheme></CustomTheme>
+      <NavigationButtonsPosition>0</NavigationButtonsPosition>
+      <Role>Staff</Role>
+      <Header></Header>
+      <Footer></Footer>
+      <AutoLogout>true</AutoLogout>
+      <OriginalState>H4sIAAAAAAAEAD3MQQrCMBAAwK9I7mZTeysqeFbpoSJel5C0C01Ssisxvl6s4ANm9qecsfb+7Ood56frPUumOGKst7q4zSvMkQ9qElk6ALaTC8g6kM2JkxdtU4CdMS00BgaXCWd6o1CKsMasfkNH/6OUokurUx6/sIHH9TKs7ZYiC0brFBw/juQnSpcAAAA=</OriginalState>
+      <SecureState>H4sIAAAAAAAEAD3MQQrCMBAAwK9I7mZTeysqeFbpoSJel5C0C01Ssisxvl6s4ANm9qecsfb+7Ood56frPUumOGKst7q4zSvMkQ9qElk6ALaTC8g6kM2JkxdtU4CdMS00BgaXCWd6o1CKsMasfkNH/6OUokurUx6/sIHH9TKs7ZYiC0brFBw/juQnSpcAAAA=</SecureState>
+      <EntityState>0</EntityState>
+    </Sequence>
+    <Forms>
+      <Id>0</Id>
+      <Name>Staff Personal Information Update</Name>
+      <Title></Title>
+      <Description></Description>
+      <Json>{"name":"Staff Personal Information Update","title":"","description":"","id":0,"formsections":[{"columns":[[{"ControlType":"HTML","ModuleName":null,"EntityName":null,"EntityNavigationalName":null,"EntityDisplayName":null,"Name":null,"DisplayName":"HTML","FullName":"..","ParentEntityName":null,"IsNavigation":false,"NavigationProperties":[],"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"HTML","IsEditable":false,"IsVisible":true,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Uuid","DisplayName":"Uuid","Value":"67a2e0ed-6e6a-9689-2cf2-d24ad7b0ff2a","IsEditable":false,"IsVisible":false,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Class","DisplayName":"Class","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"HTML","DisplayName":"HTML","Value":"&lt;h3&gt;Personal Information&lt;/h3&gt;","IsEditable":true,"IsVisible":true,"EditType":"TextArea","EditDropdownListValues":null,"EditQuery":null},{"Name":"Id","DisplayName":"Id","Value":"idedffc24a-7621-1cd9-b04f-ee57aea984d1","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Visible","DisplayName":"Visible","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null}],"CustomProperty":false,"CustomPropertyKey":null,"ClrType":null,"IsEnabled":true,"SublayoutTypes":"P,R","NumberOfColumnsSpanned":0,"SublayoutTypesArray":["P","R"],"index":11,"uuid":"67a2e0ed-6e6a-9689-2cf2-d24ad7b0ff2a"},{"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"Text Box","IsEditable":false,"IsVisible":true,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Uuid","DisplayName":"Uuid","Value":"a5bd9e5d-3e13-b3c7-0f20-7f2918c5f653","IsEditable":false,"IsVisible":false,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Class","DisplayName":"Class","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Disabled","DisplayName":"Disabled","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Id","DisplayName":"Id","Value":"StaffEntityEmployeeNumber","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"DisplayName","DisplayName":"Label","Value":"Employee ID","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"MaximumLength","DisplayName":"Max Length","Value":"20","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"NumberMaximumValue","DisplayName":"Maximum Value","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"MinimumLength","DisplayName":"Min Length","Value":"1","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"NumberMinimumValue","DisplayName":"Minimum Value","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Model","DisplayName":"Model","Value":"vm.models.staffEntity.EmployeeNumber","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Placeholder","DisplayName":"Placeholder","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Editable","DisplayName":"Read-only","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Required","DisplayName":"Required","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"RequiredMessage","DisplayName":"Required Message","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"TabIndex","DisplayName":"Tab Index","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Description","DisplayName":"Tooltip","Value":"Employee Number","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"TooltipDuration","DisplayName":"Tooltip Duration","Value":"750","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"InputType","DisplayName":"Type","Value":"text","IsEditable":true,"IsVisible":true,"EditType":"DropdownList","EditDropdownListValues":"text,password,email,number,url","EditQuery":null},{"Name":"Visible","DisplayName":"Visible","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null}],"ControlType":"Text","ClrType":"Cmc.Nexus.Common.Entities.StaffEntity, Cmc.Nexus.Common.Contracts","DisplayName":"Employee ID","CustomProperty":false,"EntityDisplayName":"Staff","EntityName":"StaffEntity","IsNavigation":false,"Name":"EmployeeNumber","NavigationPropertyContainers":[],"FirstPart":null,"SearchText":null,"LastPart":null,"index":29,"uuid":"a5bd9e5d-3e13-b3c7-0f20-7f2918c5f653"},{"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"Text Box","IsEditable":false,"IsVisible":true,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Uuid","DisplayName":"Uuid","Value":"5795c70d-169e-3b89-1765-12acdebc3dbe","IsEditable":false,"IsVisible":false,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Class","DisplayName":"Class","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Disabled","DisplayName":"Disabled","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Id","DisplayName":"Id","Value":"StaffEntityDepartment","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"DisplayName","DisplayName":"Label","Value":"Department","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"MaximumLength","DisplayName":"Max Length","Value":"10","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"NumberMaximumValue","DisplayName":"Maximum Value","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"MinimumLength","DisplayName":"Min Length","Value":"1","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"NumberMinimumValue","DisplayName":"Minimum Value","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Model","DisplayName":"Model","Value":"vm.models.staffEntity.Department","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Placeholder","DisplayName":"Placeholder","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Editable","DisplayName":"Read-only","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Required","DisplayName":"Required","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"RequiredMessage","DisplayName":"Required Message","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"TabIndex","DisplayName":"Tab Index","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Description","DisplayName":"Tooltip","Value":"Department","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"TooltipDuration","DisplayName":"Tooltip Duration","Value":"750","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"InputType","DisplayName":"Type","Value":"text","IsEditable":true,"IsVisible":true,"EditType":"DropdownList","EditDropdownListValues":"text,password,email,number,url","EditQuery":null},{"Name":"Visible","DisplayName":"Visible","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null}],"ControlType":"Text","ClrType":"Cmc.Nexus.Common.Entities.StaffEntity, Cmc.Nexus.Common.Contracts","DisplayName":"Department","CustomProperty":false,"EntityDisplayName":"Staff","EntityName":"StaffEntity","IsNavigation":false,"Name":"Department","NavigationPropertyContainers":[],"FirstPart":null,"SearchText":null,"LastPart":null,"index":24,"uuid":"5795c70d-169e-3b89-1765-12acdebc3dbe"}],[{"ControlType":"HTML","ModuleName":null,"EntityName":null,"EntityNavigationalName":null,"EntityDisplayName":null,"Name":null,"DisplayName":"HTML","FullName":"..","ParentEntityName":null,"IsNavigation":false,"NavigationProperties":[],"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"HTML","IsEditable":false,"IsVisible":true,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Uuid","DisplayName":"Uuid","Value":"c2ca7782-6397-f6db-1e6e-db7e90f60dda","IsEditable":false,"IsVisible":false,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Class","DisplayName":"Class","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"HTML","DisplayName":"HTML","Value":"","IsEditable":true,"IsVisible":true,"EditType":"TextArea","EditDropdownListValues":null,"EditQuery":null},{"Name":"Id","DisplayName":"Id","Value":"id3e313761-c90d-c6cf-1876-ffdecd09ba38","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Visible","DisplayName":"Visible","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null}],"CustomProperty":false,"CustomPropertyKey":null,"ClrType":null,"IsEnabled":true,"SublayoutTypes":"P,R","NumberOfColumnsSpanned":0,"SublayoutTypesArray":["P","R"],"index":11,"uuid":"c2ca7782-6397-f6db-1e6e-db7e90f60dda"},{"ControlType":"Text","ModuleName":"Common","EntityName":"StaffEntity","EntityNavigationalName":null,"EntityDisplayName":"Staff","Name":"StaffName","DisplayName":"Staff Name","FullName":"Student.StaffEntity.StaffName","ParentEntityName":null,"IsNavigation":false,"NavigationProperties":[],"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"Text Box","IsEditable":false,"IsVisible":true,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Uuid","DisplayName":"Uuid","Value":"45517387-e4b4-2e67-3ceb-fd3a3bc0f3c7","IsEditable":false,"IsVisible":false,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Class","DisplayName":"Class","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Disabled","DisplayName":"Disabled","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Id","DisplayName":"Id","Value":"StaffEntityStaffName","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"DisplayName","DisplayName":"Label","Value":"Staff Name","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"MaximumLength","DisplayName":"Max Length","Value":"50","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"NumberMaximumValue","DisplayName":"Maximum Value","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"MinimumLength","DisplayName":"Min Length","Value":"1","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"NumberMinimumValue","DisplayName":"Minimum Value","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Model","DisplayName":"Model","Value":"vm.models.staffEntity.StaffName","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Placeholder","DisplayName":"Placeholder","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Editable","DisplayName":"Read-only","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Required","DisplayName":"Required","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"RequiredMessage","DisplayName":"Required Message","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"TabIndex","DisplayName":"Tab Index","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Description","DisplayName":"Tooltip","Value":"Staff Name","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"TooltipDuration","DisplayName":"Tooltip Duration","Value":"750","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"InputType","DisplayName":"Type","Value":"text","IsEditable":true,"IsVisible":true,"EditType":"DropdownList","EditDropdownListValues":"text,password,email,number,url","EditQuery":null},{"Name":"Visible","DisplayName":"Visible","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null}],"CustomProperty":false,"CustomPropertyKey":null,"ClrType":"Cmc.Nexus.Common.Entities.StaffEntity, Cmc.Nexus.Common.Contracts","index":80,"uuid":"45517387-e4b4-2e67-3ceb-fd3a3bc0f3c7"},{"ControlType":"Text","ModuleName":"Common","EntityName":"StaffEntity","EntityNavigationalName":null,"EntityDisplayName":"Staff","Name":"Position","DisplayName":"Position","FullName":"Student.StaffEntity.Position","ParentEntityName":null,"IsNavigation":false,"NavigationProperties":[],"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"Text Box","IsEditable":false,"IsVisible":true,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Uuid","DisplayName":"Uuid","Value":"28d1d32e-93df-9f8c-5068-29d6f1c21664","IsEditable":false,"IsVisible":false,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Class","DisplayName":"Class","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Disabled","DisplayName":"Disabled","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Id","DisplayName":"Id","Value":"StaffEntityPosition","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"DisplayName","DisplayName":"Label","Value":"Position","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"MaximumLength","DisplayName":"Max Length","Value":"50","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"NumberMaximumValue","DisplayName":"Maximum Value","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"MinimumLength","DisplayName":"Min Length","Value":"1","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"NumberMinimumValue","DisplayName":"Minimum Value","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Model","DisplayName":"Model","Value":"vm.models.staffEntity.Position","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Placeholder","DisplayName":"Placeholder","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Editable","DisplayName":"Read-only","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Required","DisplayName":"Required","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"RequiredMessage","DisplayName":"Required Message","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"TabIndex","DisplayName":"Tab Index","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Description","DisplayName":"Tooltip","Value":"Position","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"TooltipDuration","DisplayName":"Tooltip Duration","Value":"750","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"InputType","DisplayName":"Type","Value":"text","IsEditable":true,"IsVisible":true,"EditType":"DropdownList","EditDropdownListValues":"text,password,email,number,url","EditQuery":null},{"Name":"Visible","DisplayName":"Visible","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null}],"CustomProperty":false,"CustomPropertyKey":null,"ClrType":"Cmc.Nexus.Common.Entities.StaffEntity, Cmc.Nexus.Common.Contracts","index":78,"uuid":"28d1d32e-93df-9f8c-5068-29d6f1c21664"}],[{"ControlType":"HTML","ModuleName":null,"EntityName":null,"EntityNavigationalName":null,"EntityDisplayName":null,"Name":null,"DisplayName":"HTML","FullName":"..","ParentEntityName":null,"IsNavigation":false,"NavigationProperties":[],"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"HTML","IsEditable":false,"IsVisible":true,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Uuid","DisplayName":"Uuid","Value":"1092ff36-65c8-420f-673f-9824a4096d4d","IsEditable":false,"IsVisible":false,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Class","DisplayName":"Class","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"HTML","DisplayName":"HTML","Value":"","IsEditable":true,"IsVisible":true,"EditType":"TextArea","EditDropdownListValues":null,"EditQuery":null},{"Name":"Id","DisplayName":"Id","Value":"idc370a600-2266-188a-66e4-4bab410e4ab7","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Visible","DisplayName":"Visible","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null}],"CustomProperty":false,"CustomPropertyKey":null,"ClrType":null,"IsEnabled":true,"SublayoutTypes":"P,R","NumberOfColumnsSpanned":0,"SublayoutTypesArray":["P","R"],"index":11,"uuid":"1092ff36-65c8-420f-673f-9824a4096d4d"},{"ControlType":"Date","ModuleName":"Common","EntityName":"StaffEntity","EntityNavigationalName":null,"EntityDisplayName":"Staff","Name":"HiredDate","DisplayName":"Hired Date","FullName":"Student.StaffEntity.HiredDate","ParentEntityName":null,"IsNavigation":false,"NavigationProperties":[],"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"Date Picker","IsEditable":false,"IsVisible":true,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Uuid","DisplayName":"Uuid","Value":"9f37099f-1bc2-8958-b766-1c67d4987af0","IsEditable":false,"IsVisible":false,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Class","DisplayName":"Class","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"DisableTyping","DisplayName":"Disable Input Text","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Disabled","DisplayName":"Disabled","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Format","DisplayName":"Format","Value":"d","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Id","DisplayName":"Id","Value":"StaffEntityHiredDate","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"IgnoreTime","DisplayName":"Ignore Time","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"DisplayName","DisplayName":"Label","Value":"Hired Date","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"DateMaximumValue","DisplayName":"Maximum Value","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"DateMinimumValue","DisplayName":"Minimum Value","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Model","DisplayName":"Model","Value":"vm.models.staffEntity.HiredDate","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Editable","DisplayName":"Read-only","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Required","DisplayName":"Required","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"RequiredMessage","DisplayName":"Required Message","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"TabIndex","DisplayName":"Tab Index","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Description","DisplayName":"Tooltip","Value":"Hired Date","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"TooltipDuration","DisplayName":"Tooltip Duration","Value":"750","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Visible","DisplayName":"Visible","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null}],"CustomProperty":false,"CustomPropertyKey":null,"ClrType":"Cmc.Nexus.Common.Entities.StaffEntity, Cmc.Nexus.Common.Contracts","index":12,"uuid":"9f37099f-1bc2-8958-b766-1c67d4987af0"}]],"uuid":"dbe5588e-147d-0dc1-6a66-214b7599e817","formSectionId":"id2dd6bc64-ea72-7964-c996-681c16e76c6a","mergeWithNext":false,"mergeWithPrevious":false,"isVisible":"true","title":"","description":"","cssClass":"","spanDefinitions":[{"NumberOfColumnsSpanned":4,"CanIncreaseSpan":false,"CanDecreaseSpan":true},{"NumberOfColumnsSpanned":4,"CanIncreaseSpan":false,"CanDecreaseSpan":true},{"NumberOfColumnsSpanned":4,"CanIncreaseSpan":false,"CanDecreaseSpan":true}]},{"columns":[[{"ControlType":"HTML","ModuleName":null,"EntityName":null,"EntityNavigationalName":null,"EntityDisplayName":null,"Name":null,"DisplayName":"HTML","FullName":"..","ParentEntityName":null,"IsNavigation":false,"NavigationProperties":[],"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"HTML","IsEditable":false,"IsVisible":true,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Uuid","DisplayName":"Uuid","Value":"43f94f82-0120-4bd8-046b-e88d429c3a8f","IsEditable":false,"IsVisible":false,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Class","DisplayName":"Class","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"HTML","DisplayName":"HTML","Value":"&lt;h3&gt;Address Information&lt;/h3&gt;","IsEditable":true,"IsVisible":true,"EditType":"TextArea","EditDropdownListValues":null,"EditQuery":null},{"Name":"Id","DisplayName":"Id","Value":"id0ad6fa98-bb21-a7e6-7225-538785841099","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Visible","DisplayName":"Visible","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null}],"CustomProperty":false,"CustomPropertyKey":null,"ClrType":null,"IsEnabled":true,"SublayoutTypes":"P,R","NumberOfColumnsSpanned":0,"SublayoutTypesArray":["P","R"],"index":11,"uuid":"43f94f82-0120-4bd8-046b-e88d429c3a8f"},{"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"Text Box","IsEditable":false,"IsVisible":true,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Uuid","DisplayName":"Uuid","Value":"60ec259f-85e3-0d32-07a9-79c521679746","IsEditable":false,"IsVisible":false,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Class","DisplayName":"Class","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Disabled","DisplayName":"Disabled","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Id","DisplayName":"Id","Value":"StaffEntityStreetAddress","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"DisplayName","DisplayName":"Label","Value":"Address","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"MaximumLength","DisplayName":"Max Length","Value":"255","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"NumberMaximumValue","DisplayName":"Maximum Value","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"MinimumLength","DisplayName":"Min Length","Value":"1","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"NumberMinimumValue","DisplayName":"Minimum Value","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Model","DisplayName":"Model","Value":"vm.models.staffEntity.StreetAddress","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Placeholder","DisplayName":"Placeholder","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Editable","DisplayName":"Read-only","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Required","DisplayName":"Required","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"RequiredMessage","DisplayName":"Required Message","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"TabIndex","DisplayName":"Tab Index","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Description","DisplayName":"Tooltip","Value":"Street Address","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"TooltipDuration","DisplayName":"Tooltip Duration","Value":"750","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"InputType","DisplayName":"Type","Value":"text","IsEditable":true,"IsVisible":true,"EditType":"DropdownList","EditDropdownListValues":"text,password,email,number,url","EditQuery":null},{"Name":"Visible","DisplayName":"Visible","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null}],"ControlType":"Text","ClrType":"Cmc.Nexus.Common.Entities.StaffEntity, Cmc.Nexus.Common.Contracts","DisplayName":"Address","CustomProperty":false,"EntityDisplayName":"Staff","EntityName":"StaffEntity","IsNavigation":false,"Name":"StreetAddress","NavigationPropertyContainers":[],"FirstPart":null,"SearchText":null,"LastPart":null,"index":1,"uuid":"60ec259f-85e3-0d32-07a9-79c521679746"},{"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"Text Box","IsEditable":false,"IsVisible":true,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Uuid","DisplayName":"Uuid","Value":"956aa2b7-f6b2-9f84-b7c0-0da8077d7e8c","IsEditable":false,"IsVisible":false,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Class","DisplayName":"Class","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Disabled","DisplayName":"Disabled","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Id","DisplayName":"Id","Value":"StaffEntityCity","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"DisplayName","DisplayName":"Label","Value":"City","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"MaximumLength","DisplayName":"Max Length","Value":"25","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"NumberMaximumValue","DisplayName":"Maximum Value","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"MinimumLength","DisplayName":"Min Length","Value":"1","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"NumberMinimumValue","DisplayName":"Minimum Value","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Model","DisplayName":"Model","Value":"vm.models.staffEntity.City","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Placeholder","DisplayName":"Placeholder","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Editable","DisplayName":"Read-only","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Required","DisplayName":"Required","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"RequiredMessage","DisplayName":"Required Message","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"TabIndex","DisplayName":"Tab Index","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Description","DisplayName":"Tooltip","Value":"City","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"TooltipDuration","DisplayName":"Tooltip Duration","Value":"750","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"InputType","DisplayName":"Type","Value":"text","IsEditable":true,"IsVisible":true,"EditType":"DropdownList","EditDropdownListValues":"text,password,email,number,url","EditQuery":null},{"Name":"Visible","DisplayName":"Visible","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null}],"ControlType":"Text","ClrType":"Cmc.Nexus.Common.Entities.StaffEntity, Cmc.Nexus.Common.Contracts","DisplayName":"City","CustomProperty":false,"EntityDisplayName":"Staff","EntityName":"StaffEntity","IsNavigation":false,"Name":"City","NavigationPropertyContainers":[],"FirstPart":null,"SearchText":null,"LastPart":null,"index":15,"uuid":"956aa2b7-f6b2-9f84-b7c0-0da8077d7e8c"}],[{"ControlType":"HTML","ModuleName":null,"EntityName":null,"EntityNavigationalName":null,"EntityDisplayName":null,"Name":null,"DisplayName":"HTML","FullName":"..","ParentEntityName":null,"IsNavigation":false,"NavigationProperties":[],"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"HTML","IsEditable":false,"IsVisible":true,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Uuid","DisplayName":"Uuid","Value":"10ec1c5e-1f65-77f0-849f-9716c99fe2a4","IsEditable":false,"IsVisible":false,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Class","DisplayName":"Class","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"HTML","DisplayName":"HTML","Value":"","IsEditable":true,"IsVisible":true,"EditType":"TextArea","EditDropdownListValues":null,"EditQuery":null},{"Name":"Id","DisplayName":"Id","Value":"id80dd9b9b-3ef4-6963-ef1e-6b9bd74ada0d","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Visible","DisplayName":"Visible","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null}],"CustomProperty":false,"CustomPropertyKey":null,"ClrType":null,"IsEnabled":true,"SublayoutTypes":"P,R","NumberOfColumnsSpanned":0,"SublayoutTypesArray":["P","R"],"index":11,"uuid":"10ec1c5e-1f65-77f0-849f-9716c99fe2a4"},{"ControlType":"HTML","ModuleName":null,"EntityName":null,"EntityNavigationalName":null,"EntityDisplayName":null,"Name":null,"DisplayName":"HTML","FullName":"..","ParentEntityName":null,"IsNavigation":false,"NavigationProperties":[],"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"HTML","IsEditable":false,"IsVisible":true,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Uuid","DisplayName":"Uuid","Value":"f8a24efb-8059-0688-eb16-c727e008dd16","IsEditable":false,"IsVisible":false,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Class","DisplayName":"Class","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"HTML","DisplayName":"HTML","Value":"","IsEditable":true,"IsVisible":true,"EditType":"TextArea","EditDropdownListValues":null,"EditQuery":null},{"Name":"Id","DisplayName":"Id","Value":"idc4b2ff9f-8d50-9f53-bb6f-1fe5d6546dc0","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Visible","DisplayName":"Visible","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null}],"CustomProperty":false,"CustomPropertyKey":null,"ClrType":null,"IsEnabled":true,"SublayoutTypes":"P,R","NumberOfColumnsSpanned":0,"SublayoutTypesArray":["P","R"],"index":11,"uuid":"f8a24efb-8059-0688-eb16-c727e008dd16"},{"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"Text Box","IsEditable":false,"IsVisible":true,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Uuid","DisplayName":"Uuid","Value":"3ebc6bb0-c7fe-0348-4d81-ff698c9a7a0d","IsEditable":false,"IsVisible":false,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Class","DisplayName":"Class","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Disabled","DisplayName":"Disabled","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Id","DisplayName":"Id","Value":"StaffEntityState","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"DisplayName","DisplayName":"Label","Value":"State","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"MaximumLength","DisplayName":"Max Length","Value":"2","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"NumberMaximumValue","DisplayName":"Maximum Value","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"MinimumLength","DisplayName":"Min Length","Value":"1","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"NumberMinimumValue","DisplayName":"Minimum Value","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Model","DisplayName":"Model","Value":"vm.models.staffEntity.State","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Placeholder","DisplayName":"Placeholder","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Editable","DisplayName":"Read-only","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Required","DisplayName":"Required","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"RequiredMessage","DisplayName":"Required Message","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"TabIndex","DisplayName":"Tab Index","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Description","DisplayName":"Tooltip","Value":"State","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"TooltipDuration","DisplayName":"Tooltip Duration","Value":"750","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"InputType","DisplayName":"Type","Value":"text","IsEditable":true,"IsVisible":true,"EditType":"DropdownList","EditDropdownListValues":"text,password,email,number,url","EditQuery":null},{"Name":"Visible","DisplayName":"Visible","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null}],"ControlType":"Text","ClrType":"Cmc.Nexus.Common.Entities.StaffEntity, Cmc.Nexus.Common.Contracts","DisplayName":"State","CustomProperty":false,"EntityDisplayName":"Staff","EntityName":"StaffEntity","IsNavigation":false,"Name":"State","NavigationPropertyContainers":[],"FirstPart":null,"SearchText":null,"LastPart":null,"index":140,"uuid":"3ebc6bb0-c7fe-0348-4d81-ff698c9a7a0d"}],[{"ControlType":"HTML","ModuleName":null,"EntityName":null,"EntityNavigationalName":null,"EntityDisplayName":null,"Name":null,"DisplayName":"HTML","FullName":"..","ParentEntityName":null,"IsNavigation":false,"NavigationProperties":[],"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"HTML","IsEditable":false,"IsVisible":true,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Uuid","DisplayName":"Uuid","Value":"05136f69-8dae-6111-b52c-d67b73b83896","IsEditable":false,"IsVisible":false,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Class","DisplayName":"Class","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"HTML","DisplayName":"HTML","Value":"","IsEditable":true,"IsVisible":true,"EditType":"TextArea","EditDropdownListValues":null,"EditQuery":null},{"Name":"Id","DisplayName":"Id","Value":"id1aca6bb8-fac5-fb27-89f9-0cd3e8934d37","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Visible","DisplayName":"Visible","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null}],"CustomProperty":false,"CustomPropertyKey":null,"ClrType":null,"IsEnabled":true,"SublayoutTypes":"P,R","NumberOfColumnsSpanned":0,"SublayoutTypesArray":["P","R"],"index":11,"uuid":"05136f69-8dae-6111-b52c-d67b73b83896"},{"ControlType":"HTML","ModuleName":null,"EntityName":null,"EntityNavigationalName":null,"EntityDisplayName":null,"Name":null,"DisplayName":"HTML","FullName":"..","ParentEntityName":null,"IsNavigation":false,"NavigationProperties":[],"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"HTML","IsEditable":false,"IsVisible":true,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Uuid","DisplayName":"Uuid","Value":"5a8202e2-d517-55d2-f657-5ef3beb0ed3b","IsEditable":false,"IsVisible":false,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Class","DisplayName":"Class","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"HTML","DisplayName":"HTML","Value":"","IsEditable":true,"IsVisible":true,"EditType":"TextArea","EditDropdownListValues":null,"EditQuery":null},{"Name":"Id","DisplayName":"Id","Value":"id0ca11688-d9c3-98d7-9992-f8ebe29ec7d5","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Visible","DisplayName":"Visible","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null}],"CustomProperty":false,"CustomPropertyKey":null,"ClrType":null,"IsEnabled":true,"SublayoutTypes":"P,R","NumberOfColumnsSpanned":0,"SublayoutTypesArray":["P","R"],"index":11,"uuid":"5a8202e2-d517-55d2-f657-5ef3beb0ed3b"},{"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"Text Box","IsEditable":false,"IsVisible":true,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Uuid","DisplayName":"Uuid","Value":"a63da087-e858-cef4-269b-5ad1f5d69076","IsEditable":false,"IsVisible":false,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Class","DisplayName":"Class","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Disabled","DisplayName":"Disabled","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Id","DisplayName":"Id","Value":"StaffEntityPostalCode","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"DisplayName","DisplayName":"Label","Value":"Postal Code","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"MaximumLength","DisplayName":"Max Length","Value":"10","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"NumberMaximumValue","DisplayName":"Maximum Value","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"MinimumLength","DisplayName":"Min Length","Value":"1","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"NumberMinimumValue","DisplayName":"Minimum Value","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Model","DisplayName":"Model","Value":"vm.models.staffEntity.PostalCode","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Placeholder","DisplayName":"Placeholder","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Editable","DisplayName":"Read-only","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Required","DisplayName":"Required","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"RequiredMessage","DisplayName":"Required Message","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"TabIndex","DisplayName":"Tab Index","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Description","DisplayName":"Tooltip","Value":"Postal Code","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"TooltipDuration","DisplayName":"Tooltip Duration","Value":"750","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"InputType","DisplayName":"Type","Value":"text","IsEditable":true,"IsVisible":true,"EditType":"DropdownList","EditDropdownListValues":"text,password,email,number,url","EditQuery":null},{"Name":"Visible","DisplayName":"Visible","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null}],"ControlType":"Text","ClrType":"Cmc.Nexus.Common.Entities.StaffEntity, Cmc.Nexus.Common.Contracts","DisplayName":"Postal Code","CustomProperty":false,"EntityDisplayName":"Staff","EntityName":"StaffEntity","IsNavigation":false,"Name":"PostalCode","NavigationPropertyContainers":[],"FirstPart":null,"SearchText":null,"LastPart":null,"index":124,"uuid":"a63da087-e858-cef4-269b-5ad1f5d69076"}]],"uuid":"d30ae7a0-1af3-b3a9-c243-4417ad345eeb","formSectionId":"id4fde4c41-5b4d-3d73-125d-f80d99cabfa1","mergeWithNext":false,"mergeWithPrevious":false,"isVisible":"true","title":"","description":"","cssClass":"","spanDefinitions":[{"NumberOfColumnsSpanned":4,"CanIncreaseSpan":false,"CanDecreaseSpan":true},{"NumberOfColumnsSpanned":4,"CanIncreaseSpan":false,"CanDecreaseSpan":true},{"NumberOfColumnsSpanned":4,"CanIncreaseSpan":false,"CanDecreaseSpan":true}]}],"isEndState":false,"includeInViewSummary":true,"cssClass":"","formId":"idaefa1a86-b719-77e6-1639-e3cc60582eff","uuid":"bedb9765-2bfe-ec58-0b0b-af3c3a89bc34"}</Json>
+      <Html>&lt;div id="id2dd6bc64-ea72-7964-c996-681c16e76c6a" ng-show="true" class="panel panel-default"&gt;
+&lt;div class="row"&gt;
+	&lt;div class="col-xs-12 col-sm-6 col-md-4"&gt;&lt;div id="idedffc24a-7621-1cd9-b04f-ee57aea984d1" ng-show="true" class="form-group  cmc-div-htmlpage"&gt;
+    &lt;h3&gt;Personal Information&lt;/h3&gt;
+&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-xs-12 col-sm-6 col-md-4"&gt;&lt;div id="id3e313761-c90d-c6cf-1876-ffdecd09ba38" ng-show="true" class="form-group  cmc-div-htmlpage"&gt;
+    
+&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-xs-12 col-sm-6 col-md-4"&gt;&lt;div id="idc370a600-2266-188a-66e4-4bab410e4ab7" ng-show="true" class="form-group  cmc-div-htmlpage"&gt;
+    
+&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row"&gt;
+	&lt;div class="col-xs-12 col-sm-6 col-md-4"&gt;&lt;div ng-show="true" class="form-group cmc-div-textbox"&gt;
+    &lt;cmc-input-text 
+        cmc-id="StaffEntityEmployeeNumber" 
+        cmc-model="vm.models.staffEntity.EmployeeNumber" 
+        cmc-class="" 
+        cmc-disabled="false" 
+        cmc-visible="true" 
+        cmc-label="{{ 'Employee ID' | translate }}" 
+        cmc-input-type="'text'"
+        cmc-tooltip="{{ 'Employee Number' | translate }}" 
+        cmc-tooltip-duration="750"
+        cmc-required="false" 
+        cmc-tab-index=""
+        cmc-required-message="" 
+        cmc-readonly="true" 
+        cmc-min-length="1" 
+        cmc-max-length="20"
+        cmc-min=""
+        cmc-max=""
+        cmc-ref="vm.controlRefs.values['StaffEntityEmployeeNumber']"
+        cmc-change="vm.textBoxChange(payload)"
+        cmc-blur="vm.textBoxBlur(payload)"
+        cmc-place-holder=""&gt;
+    &lt;/cmc-input-text&gt;
+&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-xs-12 col-sm-6 col-md-4"&gt;&lt;div ng-show="true" class="form-group cmc-div-textbox"&gt;
+    &lt;cmc-input-text 
+        cmc-id="StaffEntityStaffName" 
+        cmc-model="vm.models.staffEntity.StaffName" 
+        cmc-class="" 
+        cmc-disabled="false" 
+        cmc-visible="true" 
+        cmc-label="{{ 'Staff Name' | translate }}" 
+        cmc-input-type="'text'"
+        cmc-tooltip="{{ 'Staff Name' | translate }}" 
+        cmc-tooltip-duration="750"
+        cmc-required="false" 
+        cmc-tab-index=""
+        cmc-required-message="" 
+        cmc-readonly="true" 
+        cmc-min-length="1" 
+        cmc-max-length="50"
+        cmc-min=""
+        cmc-max=""
+        cmc-ref="vm.controlRefs.values['StaffEntityStaffName']"
+        cmc-change="vm.textBoxChange(payload)"
+        cmc-blur="vm.textBoxBlur(payload)"
+        cmc-place-holder=""&gt;
+    &lt;/cmc-input-text&gt;
+&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-xs-12 col-sm-6 col-md-4"&gt;&lt;div ng-show="true" class="form-group cmc-div-datepicker"&gt;
+    &lt;cmc-date-picker 
+        cmc-id="StaffEntityHiredDate" 
+        cmc-model="vm.models.staffEntity.HiredDate" 
+        cmc-class="" 
+        cmc-disabled="false" 
+        cmc-visible="true" 
+        cmc-label="{{ 'Hired Date' | translate }}" 
+        cmc-tooltip="{{ 'Hired Date' | translate }}"
+        cmc-tooltip-duration="750" 
+        cmc-required="false" 
+        cmc-tab-index=""
+        cmc-disable-typing="false"
+        cmc-required-message="" 
+        cmc-readonly="true" 
+        cmc-min-string=""
+        cmc-max-string=""
+        cmc-ref="vm.controlRefs.values['StaffEntityHiredDate']"
+        cmc-change="vm.datePickerChange(payload)"
+        cmc-format="d"
+        cmc-culture="{{vm.currentInstance.locale}}"
+        cmc-ignore-time="false"&gt;
+    &lt;/cmc-date-picker&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row"&gt;
+	&lt;div class="col-xs-12 col-sm-6 col-md-4"&gt;&lt;div ng-show="true" class="form-group cmc-div-textbox"&gt;
+    &lt;cmc-input-text 
+        cmc-id="StaffEntityDepartment" 
+        cmc-model="vm.models.staffEntity.Department" 
+        cmc-class="" 
+        cmc-disabled="false" 
+        cmc-visible="true" 
+        cmc-label="{{ 'Department' | translate }}" 
+        cmc-input-type="'text'"
+        cmc-tooltip="{{ 'Department' | translate }}" 
+        cmc-tooltip-duration="750"
+        cmc-required="false" 
+        cmc-tab-index=""
+        cmc-required-message="" 
+        cmc-readonly="true" 
+        cmc-min-length="1" 
+        cmc-max-length="10"
+        cmc-min=""
+        cmc-max=""
+        cmc-ref="vm.controlRefs.values['StaffEntityDepartment']"
+        cmc-change="vm.textBoxChange(payload)"
+        cmc-blur="vm.textBoxBlur(payload)"
+        cmc-place-holder=""&gt;
+    &lt;/cmc-input-text&gt;
+&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-xs-12 col-sm-6 col-md-4"&gt;&lt;div ng-show="true" class="form-group cmc-div-textbox"&gt;
+    &lt;cmc-input-text 
+        cmc-id="StaffEntityPosition" 
+        cmc-model="vm.models.staffEntity.Position" 
+        cmc-class="" 
+        cmc-disabled="false" 
+        cmc-visible="true" 
+        cmc-label="{{ 'Position' | translate }}" 
+        cmc-input-type="'text'"
+        cmc-tooltip="{{ 'Position' | translate }}" 
+        cmc-tooltip-duration="750"
+        cmc-required="false" 
+        cmc-tab-index=""
+        cmc-required-message="" 
+        cmc-readonly="true" 
+        cmc-min-length="1" 
+        cmc-max-length="50"
+        cmc-min=""
+        cmc-max=""
+        cmc-ref="vm.controlRefs.values['StaffEntityPosition']"
+        cmc-change="vm.textBoxChange(payload)"
+        cmc-blur="vm.textBoxBlur(payload)"
+        cmc-place-holder=""&gt;
+    &lt;/cmc-input-text&gt;
+&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-xs-12 col-sm-6 col-md-4"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="id4fde4c41-5b4d-3d73-125d-f80d99cabfa1" ng-show="true" class="panel panel-default"&gt;
+&lt;div class="row"&gt;
+	&lt;div class="col-xs-12 col-sm-6 col-md-4"&gt;&lt;div id="id0ad6fa98-bb21-a7e6-7225-538785841099" ng-show="true" class="form-group  cmc-div-htmlpage"&gt;
+    &lt;h3&gt;Address Information&lt;/h3&gt;
+&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-xs-12 col-sm-6 col-md-4"&gt;&lt;div id="id80dd9b9b-3ef4-6963-ef1e-6b9bd74ada0d" ng-show="true" class="form-group  cmc-div-htmlpage"&gt;
+    
+&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-xs-12 col-sm-6 col-md-4"&gt;&lt;div id="id1aca6bb8-fac5-fb27-89f9-0cd3e8934d37" ng-show="true" class="form-group  cmc-div-htmlpage"&gt;
+    
+&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row"&gt;
+	&lt;div class="col-xs-12 col-sm-6 col-md-4"&gt;&lt;div ng-show="true" class="form-group cmc-div-textbox"&gt;
+    &lt;cmc-input-text 
+        cmc-id="StaffEntityStreetAddress" 
+        cmc-model="vm.models.staffEntity.StreetAddress" 
+        cmc-class="" 
+        cmc-disabled="false" 
+        cmc-visible="true" 
+        cmc-label="{{ 'Address' | translate }}" 
+        cmc-input-type="'text'"
+        cmc-tooltip="{{ 'Street Address' | translate }}" 
+        cmc-tooltip-duration="750"
+        cmc-required="false" 
+        cmc-tab-index=""
+        cmc-required-message="" 
+        cmc-readonly="false" 
+        cmc-min-length="1" 
+        cmc-max-length="255"
+        cmc-min=""
+        cmc-max=""
+        cmc-ref="vm.controlRefs.values['StaffEntityStreetAddress']"
+        cmc-change="vm.textBoxChange(payload)"
+        cmc-blur="vm.textBoxBlur(payload)"
+        cmc-place-holder=""&gt;
+    &lt;/cmc-input-text&gt;
+&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-xs-12 col-sm-6 col-md-4"&gt;&lt;div id="idc4b2ff9f-8d50-9f53-bb6f-1fe5d6546dc0" ng-show="true" class="form-group  cmc-div-htmlpage"&gt;
+    
+&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-xs-12 col-sm-6 col-md-4"&gt;&lt;div id="id0ca11688-d9c3-98d7-9992-f8ebe29ec7d5" ng-show="true" class="form-group  cmc-div-htmlpage"&gt;
+    
+&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row"&gt;
+	&lt;div class="col-xs-12 col-sm-6 col-md-4"&gt;&lt;div ng-show="true" class="form-group cmc-div-textbox"&gt;
+    &lt;cmc-input-text 
+        cmc-id="StaffEntityCity" 
+        cmc-model="vm.models.staffEntity.City" 
+        cmc-class="" 
+        cmc-disabled="false" 
+        cmc-visible="true" 
+        cmc-label="{{ 'City' | translate }}" 
+        cmc-input-type="'text'"
+        cmc-tooltip="{{ 'City' | translate }}" 
+        cmc-tooltip-duration="750"
+        cmc-required="false" 
+        cmc-tab-index=""
+        cmc-required-message="" 
+        cmc-readonly="false" 
+        cmc-min-length="1" 
+        cmc-max-length="25"
+        cmc-min=""
+        cmc-max=""
+        cmc-ref="vm.controlRefs.values['StaffEntityCity']"
+        cmc-change="vm.textBoxChange(payload)"
+        cmc-blur="vm.textBoxBlur(payload)"
+        cmc-place-holder=""&gt;
+    &lt;/cmc-input-text&gt;
+&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-xs-12 col-sm-6 col-md-4"&gt;&lt;div ng-show="true" class="form-group cmc-div-textbox"&gt;
+    &lt;cmc-input-text 
+        cmc-id="StaffEntityState" 
+        cmc-model="vm.models.staffEntity.State" 
+        cmc-class="" 
+        cmc-disabled="false" 
+        cmc-visible="true" 
+        cmc-label="{{ 'State' | translate }}" 
+        cmc-input-type="'text'"
+        cmc-tooltip="{{ 'State' | translate }}" 
+        cmc-tooltip-duration="750"
+        cmc-required="false" 
+        cmc-tab-index=""
+        cmc-required-message="" 
+        cmc-readonly="false" 
+        cmc-min-length="1" 
+        cmc-max-length="2"
+        cmc-min=""
+        cmc-max=""
+        cmc-ref="vm.controlRefs.values['StaffEntityState']"
+        cmc-change="vm.textBoxChange(payload)"
+        cmc-blur="vm.textBoxBlur(payload)"
+        cmc-place-holder=""&gt;
+    &lt;/cmc-input-text&gt;
+&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-xs-12 col-sm-6 col-md-4"&gt;&lt;div ng-show="true" class="form-group cmc-div-textbox"&gt;
+    &lt;cmc-input-text 
+        cmc-id="StaffEntityPostalCode" 
+        cmc-model="vm.models.staffEntity.PostalCode" 
+        cmc-class="" 
+        cmc-disabled="false" 
+        cmc-visible="true" 
+        cmc-label="{{ 'Postal Code' | translate }}" 
+        cmc-input-type="'text'"
+        cmc-tooltip="{{ 'Postal Code' | translate }}" 
+        cmc-tooltip-duration="750"
+        cmc-required="false" 
+        cmc-tab-index=""
+        cmc-required-message="" 
+        cmc-readonly="false" 
+        cmc-min-length="1" 
+        cmc-max-length="10"
+        cmc-min=""
+        cmc-max=""
+        cmc-ref="vm.controlRefs.values['StaffEntityPostalCode']"
+        cmc-change="vm.textBoxChange(payload)"
+        cmc-blur="vm.textBoxBlur(payload)"
+        cmc-place-holder=""&gt;
+    &lt;/cmc-input-text&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</Html>
+      <IsEndState>false</IsEndState>
+      <IncludeInViewSummary>true</IncludeInViewSummary>
+      <CssClass></CssClass>
+      <FormId>idaefa1a86-b719-77e6-1639-e3cc60582eff</FormId>
+      <OriginalState>H4sIAAAAAAAEAD3MQQrCMBAAwK9I7mZTeysqeFbpoSJel5C0C01Ssisxvl6s4ANm9qecsfb+7Ood56frPUumOGKst7q4zSvMkQ9qElk6ALaTC8g6kM2JkxdtU4CdMS00BgaXCWd6o1CKsMasfkNH/6OUokurUx6/sIHH9TKs7ZYiC0brFBw/juQnSpcAAAA=</OriginalState>
+      <SecureState>H4sIAAAAAAAEAD3MQQrCMBAAwK9I7mZTeysqeFbpoSJel5C0C01Ssisxvl6s4ANm9qecsfb+7Ood56frPUumOGKst7q4zSvMkQ9qElk6ALaTC8g6kM2JkxdtU4CdMS00BgaXCWd6o1CKsMasfkNH/6OUokurUx6/sIHH9TKs7ZYiC0brFBw/juQnSpcAAAA=</SecureState>
+      <EntityState>0</EntityState>
+    </Forms>
+    <Forms>
+      <Id>0</Id>
+      <Name>Default-Confirmation</Name>
+      <Title>Default-Confirmation</Title>
+      <Description>Application Default-Confirmation</Description>
+      <Json>{"name":"Default-Confirmation","title":"Default-Confirmation","description":"Application Default-Confirmation","id":0,
+	"formsections":[{"columns":[[{"ControlType":"HTML","ModuleName":null,"EntityName":null,"EntityNavigationalName":null,
+	"EntityDisplayName":null,"Name":null,"DisplayName":"HTML","FullName":"..","ParentEntityName":null,"IsNavigation":false,
+	"NavigationProperties":[],"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"HTML","IsEditable":false,
+	"EditType":"Textbox","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Not Editable"},{"Name":"Uuid","DisplayName":"Uuid",
+	"Value":"c7e786f2-0dd4-beb4-9b7f-7f2c31350840","IsEditable":false,"EditType":"Textbox","EditDropdownListValues":null,
+	"EditQuery":null,"PropertyHelp":null},{"Name":"HTML","DisplayName":"HTML","Value":"&lt;p&gt;This page will be displayed at end of each sequence as confirmation. Please update with custom confirmation message.&lt;/p&gt;",
+	"IsEditable":true,"EditType":"TextArea","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Any valid HTML"}],"CustomProperty":false,
+	"CustomPropertyKey":null,"index":4,"uuid":"c7e786f2-0dd4-beb4-9b7f-7f2c31350840"}]],"uuid":"9756dfda-bd96-9330-ad72-d6ed0d84ab38"}]}</Json>
+      <Html>&lt;div class="panel panel-default"&gt;
+	&lt;div class="row"&gt;
+	&lt;div class="col-xs-12"&gt;&lt;div class="form-group"&gt;
+	&lt;p&gt;This page will be displayed at end of each sequence as confirmation. &lt;strong&gt;DO NOT USE THIS TEMPLATE. IT IS OVERWRITTEN ON AN UPGRADE.&lt;br/&gt;Please make a copy of form Default-Confirmation (saving with End State checked) and create a custom confirmation message. Then set this custom form as the End State form on a sequence.&lt;/p&gt;
+	&lt;/div&gt;&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;/div&gt;</Html>
+      <IsEndState>true</IsEndState>
+      <IncludeInViewSummary>true</IncludeInViewSummary>
+      <CssClass></CssClass>
+      <FormId></FormId>
+      <OriginalState>H4sIAAAAAAAEAD3MQQrCMBAAwK9I7mZTeysqeFbpoSJel5C0C01Ssisxvl6s4ANm9qecsfb+7Ood56frPUumOGKst7q4zSvMkQ9qElk6ALaTC8g6kM2JkxdtU4CdMS00BgaXCWd6o1CKsMasfkNH/6OUokurUx6/sIHH9TKs7ZYiC0brFBw/juQnSpcAAAA=</OriginalState>
+      <SecureState>H4sIAAAAAAAEAD3MQQrCMBAAwK9I7mZTeysqeFbpoSJel5C0C01Ssisxvl6s4ANm9qecsfb+7Ood56frPUumOGKst7q4zSvMkQ9qElk6ALaTC8g6kM2JkxdtU4CdMS00BgaXCWd6o1CKsMasfkNH/6OUokurUx6/sIHH9TKs7ZYiC0brFBw/juQnSpcAAAA=</SecureState>
+      <EntityState>0</EntityState>
+    </Forms>
+    <WorkflowDefinition>
+      <Name>Staff Personal Information Update</Name>
+      <EntityType>Cmc.Core.Eventing.VoidEntity, Cmc.Core</EntityType>
+      <EventType>Cmc.Core.Eventing.ConstructedEvent, Cmc.Core</EventType>
+      <DateCreated>2020-05-07T14:40:14.523</DateCreated>
+      <DateModified>2020-05-07T14:40:14.523</DateModified>
+      <Id>0</Id>
+      <OriginalState>H4sIAAAAAAAEALXSwYrCQAwA0F+RudtUvZVaWNSDqOvBZfEaaqqBTkZm4tb69dpZ2Fs9LPQyISR5hDD5h/fY7qsNtd9Y32hfBfUsZ5T2q73S6G5rCXNzUb1mAKG8kMWQWC69C67SpHQWpmk6g0kKB/KMNT9Q2QlEOJhfIeM/o2mapJklzp+7wQkcd9tDZMcsQVFKMkXes04sFOtTDl3MY8uIM+F6btTfyEARS72z/egnWhqAXYmyxnwI/IdEB7KXqLTw9HqHuHan79yJK/4vD+8/bvEEgGNZbtkCAAA=</OriginalState>
+      <SecureState>H4sIAAAAAAAEAD3MQQrCMBAAwK9I7mZTeysqeFbpoSJel5C0C01Ssisxvl6s4ANm9qecsfb+7Ood56frPUumOGKst7q4zSvMkQ9qElk6ALaTC8g6kM2JkxdtU4CdMS00BgaXCWd6o1CKsMasfkNH/6OUokurUx6/sIHH9TKs7ZYiC0brFBw/juQnSpcAAAA=</SecureState>
+      <EntityState>0</EntityState>
+    </WorkflowDefinition>
+    <EnabledWorkflowDefinitionVersion>
+      <WorkflowDefinitionId>0</WorkflowDefinitionId>
+      <Xaml>&lt;Activity mc:Ignorable="sap sap2010 sads" x:Class="Staff Personal Information Update"
+ xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities"
+ xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+ xmlns:cce="clr-namespace:Cmc.Core.Eventing;assembly=Cmc.Core"
+ xmlns:ccwae="clr-namespace:Cmc.Core.Workflow.Activities.EntityModel;assembly=Cmc.Core.Workflow"
+ xmlns:cnce="clr-namespace:Cmc.Nexus.Common.Entities;assembly=Cmc.Nexus.Common.Contracts"
+ xmlns:cnf="clr-namespace:Cmc.Nexus.FormsBuilder;assembly=Cmc.Nexus.FormsBuilder.Contracts"
+ xmlns:cnfw="clr-namespace:Cmc.Nexus.FormsBuilder.Workflow;assembly=Cmc.Nexus.FormsBuilder.Workflow"
+ xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+ xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities"
+ xmlns:sads="http://schemas.microsoft.com/netfx/2010/xaml/activities/debugger"
+ xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation"
+ xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation"
+ xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib"
+ xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib"
+ xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"&gt;
+  &lt;x:Members&gt;
+    &lt;x:Property Name="formInstance" Type="InOutArgument(cnf:FormInstance)" /&gt;
+    &lt;x:Property Name="entity" Type="InOutArgument(cce:VoidEntity)" /&gt;
+    &lt;x:Property Name="event" Type="InOutArgument(cce:ConstructedEvent)" /&gt;
+    &lt;x:Property Name="staffEntity" Type="InOutArgument(cnce:StaffEntity)" /&gt;
+  &lt;/x:Members&gt;
+  &lt;mva:VisualBasic.Settings&gt;
+    &lt;x:Null /&gt;
+  &lt;/mva:VisualBasic.Settings&gt;
+  &lt;sap2010:WorkflowViewState.IdRef&gt;Staff Personal Information Update Sequence SC_1&lt;/sap2010:WorkflowViewState.IdRef&gt;
+  &lt;TextExpression.NamespacesForImplementation&gt;
+    &lt;sco:Collection x:TypeArguments="x:String"&gt;
+      &lt;x:String&gt;System.Activities&lt;/x:String&gt;
+      &lt;x:String&gt;System.Activities.Statements&lt;/x:String&gt;
+      &lt;x:String&gt;System.Activities.Expressions&lt;/x:String&gt;
+      &lt;x:String&gt;System.Activities.Validation&lt;/x:String&gt;
+      &lt;x:String&gt;System.Activities.XamlIntegration&lt;/x:String&gt;
+      &lt;x:String&gt;Cmc.Nexus.FormsBuilder.Workflow&lt;/x:String&gt;
+      &lt;x:String&gt;Microsoft.VisualBasic.Activities&lt;/x:String&gt;
+      &lt;x:String&gt;Newtonsoft.Json&lt;/x:String&gt;
+      &lt;x:String&gt;System&lt;/x:String&gt;
+      &lt;x:String&gt;System.Windows.Markup&lt;/x:String&gt;
+      &lt;x:String&gt;Cmc.Core.Eventing&lt;/x:String&gt;
+      &lt;x:String&gt;Cmc.Nexus.FormsBuilder&lt;/x:String&gt;
+      &lt;x:String&gt;Cmc.Nexus.FormsBuilder.Entities&lt;/x:String&gt;
+      &lt;x:String&gt;Cmc.Nexus.Common.Entities&lt;/x:String&gt;
+      &lt;x:String&gt;Cmc.Core.EntityModel&lt;/x:String&gt;
+      &lt;x:String&gt;Cmc.Core.ComponentModel&lt;/x:String&gt;
+      &lt;x:String&gt;System.Collections.Generic&lt;/x:String&gt;
+      &lt;x:String&gt;Cmc.Core.Serialization&lt;/x:String&gt;
+    &lt;/sco:Collection&gt;
+  &lt;/TextExpression.NamespacesForImplementation&gt;
+  &lt;TextExpression.ReferencesForImplementation&gt;
+    &lt;sco:Collection x:TypeArguments="AssemblyReference"&gt;
+      &lt;AssemblyReference&gt;System.Activities&lt;/AssemblyReference&gt;
+      &lt;AssemblyReference&gt;Cmc.Nexus.FormsBuilder.Workflow&lt;/AssemblyReference&gt;
+      &lt;AssemblyReference&gt;Newtonsoft.Json&lt;/AssemblyReference&gt;
+      &lt;AssemblyReference&gt;mscorlib&lt;/AssemblyReference&gt;
+      &lt;AssemblyReference&gt;PresentationCore&lt;/AssemblyReference&gt;
+      &lt;AssemblyReference&gt;WindowsBase&lt;/AssemblyReference&gt;
+      &lt;AssemblyReference&gt;PresentationFramework&lt;/AssemblyReference&gt;
+      &lt;AssemblyReference&gt;System.Xaml&lt;/AssemblyReference&gt;
+      &lt;AssemblyReference&gt;Cmc.Core&lt;/AssemblyReference&gt;
+      &lt;AssemblyReference&gt;Cmc.Nexus.FormsBuilder.Contracts&lt;/AssemblyReference&gt;
+      &lt;AssemblyReference&gt;Cmc.Nexus.Common.Contracts&lt;/AssemblyReference&gt;
+      &lt;AssemblyReference&gt;System&lt;/AssemblyReference&gt;
+      &lt;AssemblyReference&gt;System.Core&lt;/AssemblyReference&gt;
+      &lt;AssemblyReference&gt;System.ServiceModel&lt;/AssemblyReference&gt;
+      &lt;AssemblyReference&gt;System.Runtime.WindowsRuntime&lt;/AssemblyReference&gt;
+      &lt;AssemblyReference&gt;System.ComponentModel.Composition&lt;/AssemblyReference&gt;
+      &lt;AssemblyReference&gt;Cmc.Core.NetFramework&lt;/AssemblyReference&gt;
+    &lt;/sco:Collection&gt;
+  &lt;/TextExpression.ReferencesForImplementation&gt;
+  &lt;StateMachine DisplayName="StateMachine-Staff Personal Information Update" sap2010:WorkflowViewState.IdRef="StateMachine_1"&gt;
+    &lt;StateMachine.InitialState&gt;
+      &lt;State x:Name="__ReferenceID0" DisplayName="Staff Personal Information Update" sap2010:WorkflowViewState.IdRef="State_2"&gt;
+        &lt;State.Entry&gt;
+          &lt;Sequence DisplayName="Find Staff and Get Entity" sap2010:WorkflowViewState.IdRef="Sequence_1"&gt;
+            &lt;cnfw:LookupUser DisplayName="Lookup Staff" sap2010:WorkflowViewState.IdRef="LookupUser_1" UserId="[staffid]" UserName="[forminstance.UserName]" UserType="[Cmc.Nexus.FormsBuilder.Entities.UserType.Staff]" ValidationMessages="[forminstance.ValidationMessages]" /&gt;
+            &lt;ccwae:GetEntity x:TypeArguments="cnce:StaffEntity" EntityId="[staffid]" sap2010:WorkflowViewState.IdRef="GetEntity`1_1" Result="[staffEntity]" /&gt;
+          &lt;/Sequence&gt;
+        &lt;/State.Entry&gt;
+        &lt;State.Transitions&gt;
+          &lt;Transition DisplayName="Submit" sap2010:WorkflowViewState.IdRef="Transition_1"&gt;
+            &lt;Transition.Trigger&gt;
+              &lt;Sequence DisplayName="Save Staff Info" sap2010:WorkflowViewState.IdRef="Sequence_2"&gt;
+                &lt;cnfw:WaitForFormBookmark DisplayName="Submit" DisplayOrder="0" sap2010:WorkflowViewState.IdRef="WaitForFormBookmark_1" TransitionType="Default" /&gt;
+                &lt;ccwae:SaveEntity x:TypeArguments="cnce:StaffEntity" Entity="[staffEntity]" sap2010:WorkflowViewState.IdRef="SaveEntity`1_1" ValidationMessages="[forminstance.ValidationMessages]" /&gt;
+              &lt;/Sequence&gt;
+            &lt;/Transition.Trigger&gt;
+            &lt;Transition.Condition&gt;[Not formInstance.ValidationMessages.HasErrors]&lt;/Transition.Condition&gt;
+            &lt;Transition.To&gt;
+              &lt;State x:Name="__ReferenceID1" DisplayName="End" sap2010:WorkflowViewState.IdRef="State_1" IsFinal="True" /&gt;
+            &lt;/Transition.To&gt;
+          &lt;/Transition&gt;
+        &lt;/State.Transitions&gt;
+      &lt;/State&gt;
+    &lt;/StateMachine.InitialState&gt;
+    &lt;x:Reference&gt;__ReferenceID0&lt;/x:Reference&gt;
+    &lt;x:Reference&gt;__ReferenceID1&lt;/x:Reference&gt;
+    &lt;StateMachine.Variables&gt;
+      &lt;Variable x:TypeArguments="x:String" Name="renderedFormImage" /&gt;
+      &lt;Variable x:TypeArguments="x:Int32" Name="staffid" /&gt;
+    &lt;/StateMachine.Variables&gt;
+    &lt;sads:DebugSymbol.Symbol&gt;dy1DOlxVc2Vyc1xrbHlvblxBcHBEYXRhXExvY2FsXFRlbXBcdG1wNjMxQy50bXASRgNmEgIBAUgHXQ8CAQRZD1l7AgECSgtNFgIBDVIPVRoCAQdXI1dSAgEGSw1LkwICARNMDUyfAQIBDlMRU6QBAgEMVBFUxwECAQhLhAFLnQECARhL7QFLkAICARdLpwFL2QECARZLb0t6AgEUTEpMVQIBEUyNAUycAQIBD1RNVFwCAQpUoQFUxAECAQk=&lt;/sads:DebugSymbol.Symbol&gt;
+  &lt;/StateMachine&gt;
+  &lt;sap2010:WorkflowViewState.ViewStateManager&gt;
+    &lt;sap2010:ViewStateManager&gt;
+      &lt;sap2010:ViewStateData Id="LookupUser_1" sap:VirtualizedContainerService.HintSize="200,22" /&gt;
+      &lt;sap2010:ViewStateData Id="GetEntity`1_1" sap:VirtualizedContainerService.HintSize="200,22" /&gt;
+      &lt;sap2010:ViewStateData Id="Sequence_1" sap:VirtualizedContainerService.HintSize="222,208"&gt;
+        &lt;sap:WorkflowViewStateService.ViewState&gt;
+          &lt;scg:Dictionary x:TypeArguments="x:String, x:Object"&gt;
+            &lt;x:Boolean x:Key="IsExpanded"&gt;True&lt;/x:Boolean&gt;
+          &lt;/scg:Dictionary&gt;
+        &lt;/sap:WorkflowViewStateService.ViewState&gt;
+      &lt;/sap2010:ViewStateData&gt;
+      &lt;sap2010:ViewStateData Id="WaitForFormBookmark_1" sap:VirtualizedContainerService.HintSize="200,22" /&gt;
+      &lt;sap2010:ViewStateData Id="SaveEntity`1_1" sap:VirtualizedContainerService.HintSize="200,22" /&gt;
+      &lt;sap2010:ViewStateData Id="Sequence_2" sap:VirtualizedContainerService.HintSize="222,208"&gt;
+        &lt;sap:WorkflowViewStateService.ViewState&gt;
+          &lt;scg:Dictionary x:TypeArguments="x:String, x:Object"&gt;
+            &lt;x:Boolean x:Key="IsExpanded"&gt;True&lt;/x:Boolean&gt;
+          &lt;/scg:Dictionary&gt;
+        &lt;/sap:WorkflowViewStateService.ViewState&gt;
+      &lt;/sap2010:ViewStateData&gt;
+      &lt;sap2010:ViewStateData Id="State_1" sap:VirtualizedContainerService.HintSize="326,223"&gt;
+        &lt;sap:WorkflowViewStateService.ViewState&gt;
+          &lt;scg:Dictionary x:TypeArguments="x:String, x:Object"&gt;
+            &lt;av:Point x:Key="ShapeLocation"&gt;400,191&lt;/av:Point&gt;
+            &lt;av:Size x:Key="ShapeSize"&gt;114,61&lt;/av:Size&gt;
+            &lt;x:Boolean x:Key="IsPinned"&gt;False&lt;/x:Boolean&gt;
+          &lt;/scg:Dictionary&gt;
+        &lt;/sap:WorkflowViewStateService.ViewState&gt;
+      &lt;/sap2010:ViewStateData&gt;
+      &lt;sap2010:ViewStateData Id="Transition_1" sap:VirtualizedContainerService.HintSize="430,661"&gt;
+        &lt;sap:WorkflowViewStateService.ViewState&gt;
+          &lt;scg:Dictionary x:TypeArguments="x:String, x:Object"&gt;
+            &lt;x:Int32 x:Key="SrcConnectionPointIndex"&gt;3&lt;/x:Int32&gt;
+            &lt;x:Int32 x:Key="DestConnectionPointIndex"&gt;2&lt;/x:Int32&gt;
+            &lt;av:PointCollection x:Key="ConnectorLocation"&gt;55.7,141 55.7,171 405.7,171 405.7,191&lt;/av:PointCollection&gt;
+          &lt;/scg:Dictionary&gt;
+        &lt;/sap:WorkflowViewStateService.ViewState&gt;
+      &lt;/sap2010:ViewStateData&gt;
+      &lt;sap2010:ViewStateData Id="State_2" sap:VirtualizedContainerService.HintSize="326,570"&gt;
+        &lt;sap:WorkflowViewStateService.ViewState&gt;
+          &lt;scg:Dictionary x:TypeArguments="x:String, x:Object"&gt;
+            &lt;av:Point x:Key="ShapeLocation"&gt;50,80&lt;/av:Point&gt;
+            &lt;av:Size x:Key="ShapeSize"&gt;114,61&lt;/av:Size&gt;
+            &lt;x:Boolean x:Key="IsPinned"&gt;False&lt;/x:Boolean&gt;
+          &lt;/scg:Dictionary&gt;
+        &lt;/sap:WorkflowViewStateService.ViewState&gt;
+      &lt;/sap2010:ViewStateData&gt;
+      &lt;sap2010:ViewStateData Id="StateMachine_1" sap:VirtualizedContainerService.HintSize="614,636"&gt;
+        &lt;sap:WorkflowViewStateService.ViewState&gt;
+          &lt;scg:Dictionary x:TypeArguments="x:String, x:Object"&gt;
+            &lt;x:Boolean x:Key="IsExpanded"&gt;False&lt;/x:Boolean&gt;
+            &lt;av:Point x:Key="ShapeLocation"&gt;270,2.5&lt;/av:Point&gt;
+            &lt;x:Double x:Key="StateContainerWidth"&gt;600&lt;/x:Double&gt;
+            &lt;x:Double x:Key="StateContainerHeight"&gt;600&lt;/x:Double&gt;
+            &lt;av:PointCollection x:Key="ConnectorLocation"&gt;300,77.5 300,110.5 164,110.5&lt;/av:PointCollection&gt;
+          &lt;/scg:Dictionary&gt;
+        &lt;/sap:WorkflowViewStateService.ViewState&gt;
+      &lt;/sap2010:ViewStateData&gt;
+      &lt;sap2010:ViewStateData Id="Staff Personal Information Update Sequence SC_1" sap:VirtualizedContainerService.HintSize="654,716" /&gt;
+    &lt;/sap2010:ViewStateManager&gt;
+  &lt;/sap2010:WorkflowViewState.ViewStateManager&gt;
+&lt;/Activity&gt;</Xaml>
+      <Version>4</Version>
+      <Major>1</Major>
+      <Minor>0</Minor>
+      <Build>0</Build>
+      <Revision>4</Revision>
+      <PublishedBy>klyon</PublishedBy>
+      <SourceLocation>LPT2036 [Workflow Designer]</SourceLocation>
+      <DateCreated>2020-05-07T19:00:38.097</DateCreated>
+      <DateModified>2020-05-07T19:00:38.097</DateModified>
+      <IsEnabled>true</IsEnabled>
+      <Id>0</Id>
+      <OriginalState>H4sIAAAAAAAEALXUwU7DMAwA0F+Zeqfp2K3qKjHGYWLVEEWwq5c6qyGNpySllK9nDRK3cZiUSy6Wny07SXFnLYw79YjjK+ged8p5S+YIZnwZTzj76rRxy6T1/pQL4WSLHbi0I2nZsfKp5E7cZtlCzDNRoyXQ9A2e2IgAu+RXyOnPGIYhHRYp2+OUOBf7alsH9oaM82AkJmVxoZ0QKN/YfijNwxoVGZqKbZpCTJEiJM0oN6SXibc9JqIMoYva5TJ76HQEtoJ3tjFcMlHcVU86xnif8ZPceXcR6I17MHDQGKPtmnsrccsy3PIIBZ76gybXYrMaI+hr8Hhv8XzGGM6kV9yQoij8tc9c/P/JlT9at+wSBQUAAA==</OriginalState>
+      <SecureState>H4sIAAAAAAAEAD3MQQrCMBAAwK9I7mZTeysqeFbpoSJel5C0C01Ssisxvl6s4ANm9qecsfb+7Ood56frPUumOGKst7q4zSvMkQ9qElk6ALaTC8g6kM2JkxdtU4CdMS00BgaXCWd6o1CKsMasfkNH/6OUokurUx6/sIHH9TKs7ZYiC0brFBw/juQnSpcAAAA=</SecureState>
+      <EntityState>0</EntityState>
+    </EnabledWorkflowDefinitionVersion>
+  </ExportedSequences>
+  <FormsBuilderVersion>3.6.2.1</FormsBuilderVersion>
+  <ExportedDateTimeInUtc>05/07/2020 19:05:36</ExportedDateTimeInUtc>
+  <DbConnectionString>Data Source=QASQLQA8;initial catalog=IM_Portal_FB_36;Integrated Security=SSPI;Persist Security Info=False;MultipleActiveResultSets=True</DbConnectionString>
+</Export>
