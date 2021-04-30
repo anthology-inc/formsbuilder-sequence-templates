@@ -1,0 +1,189 @@
+<Export>
+  <FormsBuilderVersion>3.8.1.1</FormsBuilderVersion>
+  <ExportedDateTimeInUtc>Wednesday, 28 April 2021 19:09:16</ExportedDateTimeInUtc>
+  <DbConnectionString>Data Source=QASQLQA8;initial catalog=IM_Portal_FB_35;Integrated Security=SSPI;Persist Security Info=False;MultipleActiveResultSets=True</DbConnectionString>
+  <ExportedSequences>
+    <Sequence>
+      <Id>0</Id>
+      <Name>Video Example</Name>
+      <Url></Url>
+      <Title>Video Example</Title>
+      <Description></Description>
+      <WorkflowDefinitionId>0</WorkflowDefinitionId>
+      <IsAnonymous>true</IsAnonymous>
+      <EndStateForm>Default-Confirmation</EndStateForm>
+      <AuthenticationProduct>CRM</AuthenticationProduct>
+      <KendoTheme>Silver</KendoTheme>
+      <BootstrapTheme>Lumen</BootstrapTheme>
+      <CustomTheme></CustomTheme>
+      <NavigationButtonsPosition>0</NavigationButtonsPosition>
+      <Role>Student</Role>
+      <Header></Header>
+      <Footer></Footer>
+      <AutoLogout>false</AutoLogout>
+      <AnalyticsTracker></AnalyticsTracker>
+      <NavBarLogo></NavBarLogo>
+      <CustomCSS></CustomCSS>
+      <OriginalState>H4sIAAAAAAAEAD3MQQrCMBAAwK9I7mZTeysqeFbpoSJel5C0C01Ssisxvl6s4ANm9qecsfb+7Ood56frPUumOGKst7q4zSvMkQ9qElk6ALaTC8g6kM2JkxdtU4CdMS00BgaXCWd6o1CKsMasfkNH/6OUokurUx6/sIHH9TKs7ZYiC0brFBw/juQnSpcAAAA=</OriginalState>
+      <SecureState>H4sIAAAAAAAEAD3MQQrCMBAAwK9I7mZTeysqeFbpoSJel5C0C01Ssisxvl6s4ANm9qecsfb+7Ood56frPUumOGKst7q4zSvMkQ9qElk6ALaTC8g6kM2JkxdtU4CdMS00BgaXCWd6o1CKsMasfkNH/6OUokurUx6/sIHH9TKs7ZYiC0brFBw/juQnSpcAAAA=</SecureState>
+      <EntityState>0</EntityState>
+    </Sequence>
+    <Forms>
+      <Id>0</Id>
+      <Name>Video Example</Name>
+      <Title>Video Example</Title>
+      <Description></Description>
+      <Json>{"name":"Video Example","title":"Video Example","description":"","id":6055,"formsections":[{"columns":[[{"ControlType":"HTML","ModuleName":null,"EntityName":null,"EntityNavigationalName":null,"EntityDisplayName":null,"Name":null,"DisplayName":"HTML","FullName":"..","ParentEntityName":null,"IsNavigation":false,"NavigationProperties":[],"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"HTML","IsEditable":false,"IsVisible":true,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Uuid","DisplayName":"Uuid","Value":"ddd98911-43ab-4747-cbb3-9cf43bc24b5b","IsEditable":false,"IsVisible":false,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Class","DisplayName":"Class","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"HTML","DisplayName":"HTML","Value":"&lt;p&gt;This is an example of the use of a video in a form. Note you must first upload the mp4 file to Custom Content in Designer.&lt;br&gt;Videos can be used to give a campus tour or instructions for filling out complicated Financial Aid forms or anything.&lt;br&gt;&lt;br&gt;Just press play button below.&lt;/p&gt;","IsEditable":true,"IsVisible":true,"EditType":"TextArea","EditDropdownListValues":null,"EditQuery":null},{"Name":"Id","DisplayName":"Id","Value":"idecc72705-1bd2-beda-af0e-7936e925245a","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Visible","DisplayName":"Visible","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null}],"CustomProperty":false,"CustomPropertyKey":null,"ClrType":null,"IsEnabled":true,"SublayoutTypes":"P,R","NumberOfColumnsSpanned":0,"SublayoutTypesArray":["P","R"],"index":13,"uuid":"ddd98911-43ab-4747-cbb3-9cf43bc24b5b"},{"ControlType":"HTML","ModuleName":null,"EntityName":null,"EntityNavigationalName":null,"EntityDisplayName":null,"Name":null,"DisplayName":"HTML","FullName":"..","ParentEntityName":null,"IsNavigation":false,"NavigationProperties":[],"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"HTML","IsEditable":false,"IsVisible":true,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Uuid","DisplayName":"Uuid","Value":"1ce4e5df-50b5-d0c1-21c8-60272ed9567f","IsEditable":false,"IsVisible":false,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Class","DisplayName":"Class","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"HTML","DisplayName":"HTML","Value":"&lt;cmc-custom-content-video src1=\"videoplayback.mp4\" controls /&gt;","IsEditable":true,"IsVisible":true,"EditType":"TextArea","EditDropdownListValues":null,"EditQuery":null},{"Name":"Id","DisplayName":"Id","Value":"id7a436107-0c87-5cde-14b7-afec76dc7f38","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Visible","DisplayName":"Visible","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null}],"CustomProperty":false,"CustomPropertyKey":null,"ClrType":null,"IsEnabled":true,"SublayoutTypes":"P,R","NumberOfColumnsSpanned":0,"SublayoutTypesArray":["P","R"],"index":13,"uuid":"1ce4e5df-50b5-d0c1-21c8-60272ed9567f"}]],"uuid":"802802f6-2f9a-b91c-36bd-91cbdc3a07b9","formSectionId":"id86447566-cd42-1e27-121d-d67029028996","mergeWithNext":false,"mergeWithPrevious":false,"isVisible":"true","title":"","description":"","cssClass":"","spanDefinitions":[{"NumberOfColumnsSpanned":12,"CanIncreaseSpan":false,"CanDecreaseSpan":true}]}],"isEndState":false,"includeInViewSummary":true,"cssClass":"","formId":"id701f72e0-dc9c-2a88-1c78-7c3905f21d27","uuid":"d461cc91-6147-2753-4574-15184a35400a"}</Json>
+      <Html>&lt;div id="id86447566-cd42-1e27-121d-d67029028996" ng-show="true" class="panel panel-default"&gt;
+&lt;div class="row"&gt;
+	&lt;div class="col-xs-12 col-sm-12 col-md-12"&gt;&lt;div id="idecc72705-1bd2-beda-af0e-7936e925245a" ng-show="true" class="form-group  cmc-div-htmlpage"&gt;
+    &lt;p&gt;This is an example of the use of a video in a form. Note you must first upload the mp4 file to Custom Content in Designer.&lt;br&gt;Videos can be used to give a campus tour or instructions for filling out complicated Financial Aid forms or anything.&lt;br&gt;&lt;br&gt;Just press play button below.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row"&gt;
+	&lt;div class="col-xs-12 col-sm-12 col-md-12"&gt;&lt;div id="id7a436107-0c87-5cde-14b7-afec76dc7f38" ng-show="true" class="form-group  cmc-div-htmlpage"&gt;
+    &lt;cmc-custom-content-video src1="videoplayback.mp4" controls /&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</Html>
+      <IsEndState>false</IsEndState>
+      <IncludeInViewSummary>true</IncludeInViewSummary>
+      <CssClass></CssClass>
+      <FormId>id701f72e0-dc9c-2a88-1c78-7c3905f21d27</FormId>
+      <OriginalState>H4sIAAAAAAAEAD3MQQrCMBAAwK9I7mZTeysqeFbpoSJel5C0C01Ssisxvl6s4ANm9qecsfb+7Ood56frPUumOGKst7q4zSvMkQ9qElk6ALaTC8g6kM2JkxdtU4CdMS00BgaXCWd6o1CKsMasfkNH/6OUokurUx6/sIHH9TKs7ZYiC0brFBw/juQnSpcAAAA=</OriginalState>
+      <SecureState>H4sIAAAAAAAEAD3MQQrCMBAAwK9I7mZTeysqeFbpoSJel5C0C01Ssisxvl6s4ANm9qecsfb+7Ood56frPUumOGKst7q4zSvMkQ9qElk6ALaTC8g6kM2JkxdtU4CdMS00BgaXCWd6o1CKsMasfkNH/6OUokurUx6/sIHH9TKs7ZYiC0brFBw/juQnSpcAAAA=</SecureState>
+      <EntityState>0</EntityState>
+    </Forms>
+    <Forms>
+      <Id>0</Id>
+      <Name>Default-Confirmation</Name>
+      <Title>Default-Confirmation</Title>
+      <Description>Application Default-Confirmation</Description>
+      <Json>{"name":"Default-Confirmation","title":"Default-Confirmation","description":"Application Default-Confirmation","id":0,
+	"formsections":[{"columns":[[{"ControlType":"HTML","ModuleName":null,"EntityName":null,"EntityNavigationalName":null,
+	"EntityDisplayName":null,"Name":null,"DisplayName":"HTML","FullName":"..","ParentEntityName":null,"IsNavigation":false,
+	"NavigationProperties":[],"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"HTML","IsEditable":false,
+	"EditType":"Textbox","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Not Editable"},{"Name":"Uuid","DisplayName":"Uuid",
+	"Value":"c7e786f2-0dd4-beb4-9b7f-7f2c31350840","IsEditable":false,"EditType":"Textbox","EditDropdownListValues":null,
+	"EditQuery":null,"PropertyHelp":null},{"Name":"HTML","DisplayName":"HTML","Value":"&lt;p&gt;This page will be displayed at end of each sequence as confirmation. Please update with custom confirmation message.&lt;/p&gt;",
+	"IsEditable":true,"EditType":"TextArea","EditDropdownListValues":null,"EditQuery":null,"PropertyHelp":"Any valid HTML"}],"CustomProperty":false,
+	"CustomPropertyKey":null,"index":4,"uuid":"c7e786f2-0dd4-beb4-9b7f-7f2c31350840"}]],"uuid":"9756dfda-bd96-9330-ad72-d6ed0d84ab38"}]}</Json>
+      <Html>&lt;div class="panel panel-default"&gt;
+	&lt;div class="row"&gt;
+	&lt;div class="col-xs-12"&gt;&lt;div class="form-group"&gt;
+	&lt;p&gt;This page will be displayed at end of each sequence as confirmation. &lt;strong&gt;DO NOT USE THIS TEMPLATE. IT IS OVERWRITTEN ON AN UPGRADE.&lt;br/&gt;Please make a copy of form Default-Confirmation (saving with End State checked) and create a custom confirmation message. Then set this custom form as the End State form on a sequence.&lt;/p&gt;
+	&lt;/div&gt;&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;/div&gt;</Html>
+      <IsEndState>true</IsEndState>
+      <IncludeInViewSummary>true</IncludeInViewSummary>
+      <CssClass></CssClass>
+      <FormId>id816173f0-5076-7aae-6813-157220478030</FormId>
+      <OriginalState>H4sIAAAAAAAEAD3MQQrCMBAAwK9I7mZTeysqeFbpoSJel5C0C01Ssisxvl6s4ANm9qecsfb+7Ood56frPUumOGKst7q4zSvMkQ9qElk6ALaTC8g6kM2JkxdtU4CdMS00BgaXCWd6o1CKsMasfkNH/6OUokurUx6/sIHH9TKs7ZYiC0brFBw/juQnSpcAAAA=</OriginalState>
+      <SecureState>H4sIAAAAAAAEAD3MQQrCMBAAwK9I7mZTeysqeFbpoSJel5C0C01Ssisxvl6s4ANm9qecsfb+7Ood56frPUumOGKst7q4zSvMkQ9qElk6ALaTC8g6kM2JkxdtU4CdMS00BgaXCWd6o1CKsMasfkNH/6OUokurUx6/sIHH9TKs7ZYiC0brFBw/juQnSpcAAAA=</SecureState>
+      <EntityState>0</EntityState>
+    </Forms>
+    <WorkflowDefinition xmlns:json="http://james.newtonking.com/projects/json" json:id="1">
+      <Name>Video Example</Name>
+      <EntityType>Cmc.Core.Eventing.VoidEntity, Cmc.Core</EntityType>
+      <EventType>Cmc.Core.Eventing.ConstructedEvent, Cmc.Core</EventType>
+      <EventPhase>1</EventPhase>
+      <DateCreated>2021-04-28T18:59:34.56</DateCreated>
+      <DateModified>2021-04-28T18:59:34.56</DateModified>
+      <Id>0</Id>
+      <OriginalState>H4sIAAAAAAAEALXTzWrDMAwA4Fcpvi9K11tIA2ProfRv0DF2FanSCGK52GrT7Om3eLBbdhj4IhCSPoRA5ZP3OByaDQ3v2F3p0AT1LGeU4W240OxuOwlL06peCoBQt2QxZJZr74JrNKudhcc8X8A8hyN5xo4/UdkJRDiYH6HgX6Pv+6xfZM6fx8E5fOy2x8g+sARFqclU5cQ6sVCtbiT62mKgEsa8jK0zLoS7pVF/JQNVLE0a0/j6lADdo02x60qUNeYp8PHKiewXVHr29B1TXHvUd+7EDf+Xh7+/ovoCEddcBDYDAAA=</OriginalState>
+      <SecureState>H4sIAAAAAAAEAD3MQQrCMBAAwK9I7mZTeysqeFbpoSJel5C0C01Ssisxvl6s4ANm9qecsfb+7Ood56frPUumOGKst7q4zSvMkQ9qElk6ALaTC8g6kM2JkxdtU4CdMS00BgaXCWd6o1CKsMasfkNH/6OUokurUx6/sIHH9TKs7ZYiC0brFBw/juQnSpcAAAA=</SecureState>
+      <ModifiedProperties>EventPhase</ModifiedProperties>
+      <ModifiedProperties>Id</ModifiedProperties>
+      <ModifiedProperties>Name</ModifiedProperties>
+      <ModifiedProperties>EntityType</ModifiedProperties>
+      <ModifiedProperties>EventType</ModifiedProperties>
+      <ModifiedProperties>DateCreated</ModifiedProperties>
+      <ModifiedProperties>DateModified</ModifiedProperties>
+      <OriginalValues>
+        <EventPhase />
+        <Id />
+        <Name />
+        <EntityType />
+        <EventType />
+        <DateCreated />
+        <DateModified />
+      </OriginalValues>
+      <EntityState>0</EntityState>
+    </WorkflowDefinition>
+    <EnabledWorkflowDefinitionVersion p3:id="2" xmlns:p3="http://james.newtonking.com/projects/json">
+      <WorkflowDefinition />
+      <WorkflowDefinitionId>0</WorkflowDefinitionId>
+      <Xaml>&lt;Activity x:Class="Video Example" mva:VisualBasic.Settings="Assembly references and imported namespaces serialized as XML namespaces" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:cnfw="clr-namespace:Cmc.Nexus.FormsBuilder.Workflow;assembly=Cmc.Nexus.FormsBuilder.Workflow" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:nj="clr-namespace:Newtonsoft.Json;assembly=Newtonsoft.Json" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:cce="clr-namespace:Cmc.Core.Eventing;assembly=Cmc.Core" xmlns:cnf="clr-namespace:Cmc.Nexus.FormsBuilder;assembly=Cmc.Nexus.FormsBuilder.Contracts" xmlns:cnfe="clr-namespace:Cmc.Nexus.FormsBuilder.Entities;assembly=Cmc.Nexus.FormsBuilder.Contracts"&gt;
+  &lt;x:Members&gt;
+    &lt;x:Property Name="formInstance" Type="InOutArgument(cnf:FormInstance)" /&gt;
+    &lt;x:Property Name="entity" Type="InOutArgument(cce:VoidEntity)" /&gt;
+    &lt;x:Property Name="event" Type="InOutArgument(cce:ConstructedEvent)" /&gt;
+  &lt;/x:Members&gt;
+  &lt;StateMachine InitialState="{x:Reference __ReferenceID1}"&gt;
+    &lt;State x:Name="__ReferenceID1" DisplayName="Video Example"&gt;
+      &lt;State.Transitions&gt;
+        &lt;Transition DisplayName="Next"&gt;
+          &lt;Transition.Trigger&gt;
+            &lt;cnfw:WaitForFormBookmark DisplayName="Next" DisplayOrder="1" TransitionType="MoveForward" /&gt;
+          &lt;/Transition.Trigger&gt;
+          &lt;Transition.To&gt;
+            &lt;State x:Name="__ReferenceID0" DisplayName="End" IsFinal="True" /&gt;
+          &lt;/Transition.To&gt;
+        &lt;/Transition&gt;
+      &lt;/State.Transitions&gt;
+    &lt;/State&gt;
+    &lt;x:Reference&gt;__ReferenceID0&lt;/x:Reference&gt;
+    &lt;StateMachine.Variables&gt;
+      &lt;Variable x:TypeArguments="s:String" Name="renderedFormImage" /&gt;
+    &lt;/StateMachine.Variables&gt;
+  &lt;/StateMachine&gt;
+&lt;/Activity&gt;</Xaml>
+      <Version>1</Version>
+      <Major>1</Major>
+      <Minor>0</Minor>
+      <Build>0</Build>
+      <Revision>1</Revision>
+      <PublishedBy>administrator</PublishedBy>
+      <SourceLocation>CLTQAFB37</SourceLocation>
+      <DateCreated>2021-04-28T18:59:34.56</DateCreated>
+      <DateModified>2021-04-28T18:59:34.56</DateModified>
+      <IsEnabled>true</IsEnabled>
+      <Id>0</Id>
+      <LastModifiedBy>administrator</LastModifiedBy>
+      <IsMarkedForDelete>false</IsMarkedForDelete>
+      <OriginalState>H4sIAAAAAAAEALXUwU7DMAwA0F+Zcqfp2K3qKjHGYaLVEEWwq5c6qyFNpiSllK9nDYJbOSDlkovlZ8uOnN9YC+Ne3uP4DKrHvXTekj6BHp/GMy4+OqXdmrXenzPOnWixA5d0JKxxRvpEmI5fp+mKL1NeoyVQ9AmejOYBduxbyOjXGIYhGVaJsacpcckPVVkH9oq086AFsiKfaScEihdj36QywxYlaZqK7ZqcT5E8JC0o06TWzNseGS9CaFabL3OATkVgK3g1NoZLOoq76UnFGO8jvpO77C4CvXN3Go4KY7Rdm94KLI0IvzxCgYf+qMi12GzGCPoWPN5avLwxhjPplWlIUhS+BOd/+CjT+e8d4X9f0eILKURFW2YFAAA=</OriginalState>
+      <SecureState>H4sIAAAAAAAEAD3MQQrCMBAAwK9I7mZTeysqeFbpoSJel5C0C01Ssisxvl6s4ANm9qecsfb+7Ood56frPUumOGKst7q4zSvMkQ9qElk6ALaTC8g6kM2JkxdtU4CdMS00BgaXCWd6o1CKsMasfkNH/6OUokurUx6/sIHH9TKs7ZYiC0brFBw/juQnSpcAAAA=</SecureState>
+      <ModifiedProperties>WorkflowDefinitionId</ModifiedProperties>
+      <ModifiedProperties>Xaml</ModifiedProperties>
+      <ModifiedProperties>Major</ModifiedProperties>
+      <ModifiedProperties>Minor</ModifiedProperties>
+      <ModifiedProperties>Build</ModifiedProperties>
+      <ModifiedProperties>Revision</ModifiedProperties>
+      <ModifiedProperties>IsEnabled</ModifiedProperties>
+      <ModifiedProperties>SourceLocation</ModifiedProperties>
+      <ModifiedProperties>PublishedBy</ModifiedProperties>
+      <ModifiedProperties>DateCreated</ModifiedProperties>
+      <ModifiedProperties>DateModified</ModifiedProperties>
+      <ModifiedProperties>LastModifiedBy</ModifiedProperties>
+      <ModifiedProperties>Id</ModifiedProperties>
+      <OriginalValues>
+        <WorkflowDefinitionId />
+        <Xaml />
+        <Major />
+        <Minor />
+        <Build />
+        <Revision />
+        <IsEnabled />
+        <SourceLocation />
+        <PublishedBy />
+        <DateCreated />
+        <DateModified />
+        <LastModifiedBy />
+        <Id />
+      </OriginalValues>
+      <EntityState>0</EntityState>
+    </EnabledWorkflowDefinitionVersion>
+  </ExportedSequences>
+</Export>
